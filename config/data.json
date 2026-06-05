@@ -1,12 +1,12 @@
 {
 	"theses": {
 		"0": {
-			"l": "Ich möchte gerne Veranstaltungen planen und organisieren.",
+			"l": "Ich möchte gerne Veranstaltungen organisieren und durchführen.",
 			"s": "Veranstaltungen",
 			"x": ""
 		},
 		"1": {
-			"l": "Ich möchte mich mit politische Positionen einbringen und/oder sie für den BDKJ vertreten.",
+			"l": "Ich möchte mich mit politischen Positionen einbringen und/oder sie für den BDKJ vertreten.",
 			"s": "Interessenvertretung",
 			"x": ""
 		},
@@ -16,17 +16,17 @@
 			"x": ""
 		},
 		"3": {
-			"l": "Ich arbeite am liebsten im Team.",
+			"l": "Ich möchte in einem festen Team arbeiten.",
 			"s": "Teamwork",
 			"x": ""
 		},
 		"4": {
-			"l": "Es macht mir Spaß, zu moderieren oder vor großen Menschengruppen zu sprechen.",
+			"l": "Es macht mir Spaß, zu auf Versammlungen zu moderieren oder vor großen Menschengruppen zu sprechen.",
 			"s": "Moderation",
 			"x": ""
 		},
 		"5": {
-			"l": "Ich möchte demokratische Strukturen innerhalb des BDKJ gestalten.",
+			"l": "Ich möchte die demokratischen Strukturen innerhalb des BDKJ gestalten.",
 			"s": "Verbandliche Demokratie",
 			"x": ""
 		},
@@ -36,12 +36,12 @@
 			"x": ""
 		},
 		"7": {
-			"l": "Ich möchte gerne mit anderen Jugendverbandler*innen in Kontakt kommen.",
+			"l": "Ich möchte vor allem mit anderen Jugendverbandler*innen in Kontakt kommen.",
 			"s": "Kontakt zu Jugendverbandler*innen",
 			"x": ""
 		},
 		"8": {
-			"l": "Ich möchte gerne mit externen Menschen außerhalb des BDKJ in Kontakt kommen.",
+			"l": "Ich möchte vordergründig mit externen Menschen außerhalb des BDKJ in Kontakt kommen.",
 			"s": "Kontakt nach außen",
 			"x": ""
 		},
@@ -376,7 +376,7 @@
 				"statement": ""
 			},
 			"7": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
@@ -434,7 +434,7 @@
 				"statement": ""
 			},
 			"7": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
@@ -550,7 +550,7 @@
 				"statement": ""
 			},
 			"7": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
