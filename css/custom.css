@@ -195,7 +195,7 @@ body.custom-wm, .custom-wm body {
 
 /* Form controls adjustments to look flatter */
 .form-control, input.form-control, textarea.form-control, select.form-control {
-  border-radius: 8px !important;
+  border-radius: 0 !important;
   border: 1px solid rgba(15,23,42,0.06) !important;
   padding: 10px 12px !important;
   background: #fff !important;
@@ -250,7 +250,7 @@ body.custom-wm, .custom-wm body {
  - Use JS to toggle .selected on answer tiles and to set progress width inline (e.g., style="width:45%").
 */
 
-/* Force page background to warm yellow/orange */
+/* Force page background to yellow/orange */
 html, body {
   background: linear-gradient(180deg, #ffb300 20%, #fdb924 80%) !important;
   color: #1b1b1b !important;
@@ -266,9 +266,9 @@ body .btn {
 }
 
 /* Preserve semantic colors for yes/neutral/no if you want them different */
-body #mahlowat #btn-yes { background-color: #28a745 !important; border-color: #28a745 !important; color: #fff !important; }
-body #mahlowat #btn-neutral { background-color: #ffc107 !important; border-color: #ffc107 !important; color: rgba(0,0,0,0.85) !important; }
-body #mahlowat #btn-no { background-color: #dc3545 !important; border-color: #dc3545 !important; color: #fff !important; }
+body #mahlowat #btn-yes { background-color: #000000 !important; border-color: #000000 !important; color: #fff !important; }
+body #mahlowat #btn-neutral { background-color: #000000 !important; border-color: #000000 !important; color: rgba(0,0,0,0.85) !important; }
+body #mahlowat #btn-no { background-color: #000000 !important; border-color: #000000 !important; color: #fff !important; }
 
 /* Specific: override .btn-primary from Bootstrap */
 body .btn.btn-primary {
@@ -276,6 +276,7 @@ body .btn.btn-primary {
   border-color: #000 !important;
   color: #fff !important;
 }
+
 
 /* Progress bar color example (optional) */
 #overall-progress-bar {
