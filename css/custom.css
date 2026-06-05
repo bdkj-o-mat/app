@@ -1,334 +1,296 @@
-
-/* Root palette */
+/* custom.css - Wahl-O-Mat inspired theme (replace bootstrap) /
+/ Variables /
 :root{
-  --wo-bg:#f4f6fb;
-  --wo-card:#ffffff;
-  --wo-primary:#003366;
-  --wo-accent:#ffd400;
-  --wo-yes:#28a745;
-  --wo-neutral:#ffc107;
-  --wo-no:#dc3545;
-  --wo-text:#1b1b1b;
-  --wo-muted:#6c757d;
-}
+--bg:#ffffff;
+--surface:#f7f8fb;
+--primary:#0b3b66;       / dunkelblau /
+--accent:#ffb100;        / orange/gelb /
+--muted:#6b7280;
+--card:#ffffff;
+--radius:10px;
+--gap:16px;
+--max-width:1100/ custom.css - Wahl-O-Mat inspired theme (replace bootstrap) */
 
-/* Page background + font */
-html, body {
-  background: var(--wo-bg);
-  color: var(--wo-text);
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Jumbotron / Start */
-.jumbotron {
-  background: linear-gradient(90deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(15,20,30,0.06);
-  padding: 2.5rem;
-}
-.jumbotron img {
-  max-height: 68px;
-}
-
-/* Header logo in mahlowat view */
-#mahlowat img, #start img {
-  max-height: 52px;
-}
-
-/* Card styling (thesis + result cards) */
-.card {
-  background: var(--wo-card);
-  border: 0;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(15,20,30,0.06);
-}
-
-/* Thesis card specifics */
-#thesis-card.card {
-  padding: 0;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-/* Thesis title & text */
-#thesis-number {
-  color: var(--wo-muted);
-  margin-bottom: 0.25rem;
-}
-#thesis-text {
-  font-size: 1.15rem;
-  margin-bottom: 0.75rem;
-}
-
-/* Info button */
-#btn-toggle-thesis-more {
-  background: transparent;
-  border: 0;
-  color: var(--wo-primary);
-  padding: 0;
-}
-#thesis-more {
-  margin-top: 0.75rem;
-  color: var(--wo-muted);
-}
-
-/* Progress bar */
-.progress {
-  background: transparent;
-  height: auto;
-}
-#overall-progress-bar {
-  background: linear-gradient(90deg, var(--wo-accent), #ffef9a) !important;
-  height: 0.5rem;
-  border-radius: 6px;
-}
-
-/* Question buttons layout */
-.btn-select {
-  border-radius: 8px;
-  padding: 0.75rem 0.85rem;
-  font-weight: 600;
-  box-shadow: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Button specific styles (target IDs and fallback to bootstrap classes) */
-#btn-important {
-  background: #ffffff !important;
-  border: 1px solid #e6e9ef !important;
-  color: var(--wo-primary) !important;
-}
-
-#btn-yes, .btn-success {
-  background-color: var(--wo-yes) !important;
-  border-color: var(--wo-yes) !important;
-  color: #fff !important;
-}
-#btn-neutral, .btn-warning {
-  background-color: var(--wo-neutral) !important;
-  border-color: var(--wo-neutral) !important;
-  color: rgba(0,0,0,0.85) !important;
-}
-#btn-no, .btn-danger {
-  background-color: var(--wo-no) !important;
-  border-color: var(--wo-no) !important;
-  color: #fff !important;
-}
-#btn-skip, .btn-secondary {
-  background-color: #f8f9fa !important;
-  border: 1px solid #e9ecef !important;
-  color: var(--wo-muted) !important;
-}
-
-/* Icon spacing inside buttons */
-.btn-select .fa-check,
-.btn-select .fa-ban,
-.btn-select .fa-circle,
-.btn-select .fa-minus {
-  margin-right: 0.5rem;
-  font-size: 1.05rem;
-}
-
-/* Small buttons and links */
-.btn-sm.btn-light {
-  background: transparent;
-  border: 0;
-  color: var(--wo-muted);
-  padding: 0.25rem 0.5rem;
-}
-
-/* Result summary rows */
-.result-summary-row {
-  padding: 0.5rem 0;
-  border-bottom: 1px dashed rgba(0,0,0,0.04);
-}
-
-/* Result progress bars inside summary (if any) */
-.progress-bar.text-left {
-  background: linear-gradient(90deg, var(--wo-primary), #3a5f9e);
-  color: #fff;
-}
-
-/* Pagination appearance (top small dots) */
-.pagination .page-link {
-  background: #e9eef9;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  margin: 0 .15rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--wo-primary);
-  border: 0;
-}
-.pagination .page-item.active .page-link {
-  background: var(--wo-primary);
-  color: #fff;
-}
-
-/* Modal (QA) */
-.modal-content {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-/* Swype info overlay */
-#swype-info-content {
-  background: rgba(0,51,102,0.95);
-  color: #fff;
-  border-radius: 10px;
-}
-#swype-info-message .btn {
-  background: var(--wo-accent);
-  color: #000;
-  border-radius: 6px;
-  border: 0;
-}
-
-/* Text info color */
-.text-info {
-  color: var(--wo-primary) !important;
-}
-
-/* Responsive tweaks */
-@media (max-width: 767.98px) {
-  .jumbotron { padding: 1.25rem; }
-  #thesis-card { min-height: 12rem; }
-  #mahlowat, #start { padding-left: 0.5rem; padding-right: 0.5rem; }
-}
-
-/* Specificity booster fallback for stubborn Bootstrap rules:
-   Using a higher-specificity selector where needed. */
-body #mahlowat .btn,
-body #start .jumbotron,
-body #thesis-card.card,
-body #overall-progress-bar {
-  /* selectors used to increase specificity; properties below override if necessary */
-}
-
-/* Optional small utility tweaks */
-.badge {
-  border-radius: 8px;
-}
-.result-detail-header,
-.result-detail-footer {
-  cursor: pointer;
-}
-
-/* End of custom.css */
-```
-
-/* High-priority overrides to beat Bootstrap defaults */
+/* Variables /
 :root{
-  --wo-bg:#f4f6fb;
-  --wo-card:#ffffff;
-  --wo-primary:#003366;
-  --wo-accent:#ffd400;
-  --wo-yes:#28a745;
-  --wo-neutral:#ffc107;
-  --wo-no:#dc3545;
-  --wo-text:#1b1b1b;
-  --wo-muted:#6c757d;
+--bg: #ffffff;
+--surface: #f7f8fb;
+--primary: #0b3b66;    / dunkelblau /
+--accent: #ffb100;     / orange/gelb */
+--muted: #6b7280;
+--card: #ffffff;
+--radius: 10px;
+--gap: 16px;
+--max-width: 1100px;
+--shadow-strong: 0 6px 18px rgba(11,59,102,0.12);
+--shadow-soft: 0 3px 8px rgba(11,59,102,0.06);
+--font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Ensure page background & base font win */
-html, body {
-  background: var(--wo-bg) !important;
-  color: var(--wo-text) !important;
-  font-family: "Helvetica Neue", Arial, sans-serif !important;
+/* Reset / Base */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+margin:0;
+font-family:var(--font-sans);
+background:linear-gradient(180deg,var(--surface),var(--bg));
+color:#111827;
+line-height:1.45;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+padding:24px;
 }
 
-/* Jumbotron / start */
-.jumbotron {
-  background: linear-gradient(90deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9)) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 8px 24px rgba(15,20,30,0.06) !important;
+/* Container / Grid (simple replacement for Bootstrap container/row/cols) */
+.container{
+max-width:var(--max-width);
+margin:0 auto;
+padding:0 16px;
+width:100%;
+}
+.row{
+display:flex;
+flex-wrap:wrap;
+gap:var(--gap);
+}
+.col{
+flex:1 1 0%;
+min-width:0;
+}
+.col-1{flex:0 0 8.333%}
+.col-2{flex:0 0 16.666%}
+.col-3{flex:0 0 25%}
+.col-4{flex:0 0 33.333%}
+.col-6{flex:0 0 50%}
+.col-12{flex:0 0 100%}
+
+/* Header / Navbar */
+.site-header{
+background:var(--primary);
+color:white;
+padding:18px 20px;
+border-radius:12px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:var(--shadow-strong);
+}
+.site-title{
+font-size:20px;
+font-weight:700;
+letter-spacing:0.2px;
+}
+.site-sub{
+font-size:13px;
+color:rgba(255,255,255,0.9);
 }
 
-/* Cards */
-.card {
-  background: var(--wo-card) !important;
-  border: 0 !important;
-  border-radius: 12px !important;
-  box-shadow: 0 6px 18px rgba(15,20,30,0.06) !important;
+/* Card / Panel */
+.card{
+background:var(--card);
+border-radius:var(--radius);
+padding:18px;
+box-shadow:var(--shadow-soft);
+border:1px solid rgba(15,23,42,0.04);
+}
+.surface{
+background:var(--surface);
+border-radius:12px;
+padding:14px;
 }
 
-/* Thesis card explicit */
-#thesis-card.card {
-  padding: 0 !important;
-  overflow: hidden !important;
-  border-radius: 12px !important;
+/* Buttons */
+.btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+padding:10px 16px;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+border:none;
+text-decoration:none;
+color:white;
+background:var(--primary);
+box-shadow:0 4px 12px rgba(11,59,102,0.12);
+transition:transform .08s ease, box-shadow .08s ease, opacity .08s;
+}
+.btn:active{transform:translateY(1px)}
+.btn.ghost{
+background:transparent;
+color:var(--primary);
+border:1px solid rgba(11,59,102,0.08);
+box-shadow:none;
+}
+.btn-accent{
+background:linear-gradient(180deg,var(--accent),#ff9a00);
+color:#082033;
+box-shadow:0 6px 18px rgba(255,177,0,0.18);
 }
 
-/* Progress bar */
-#overall-progress-bar {
-  background: linear-gradient(90deg, var(--wo-accent), #ffef9a) !important;
-  height: 0.5rem !important;
-  border-radius: 6px !important;
+/* Large primary action like Wahl-O-Mat "Weiter" */
+.btn-lg{
+padding:14px 20px;
+font-size:16px;
+border-radius:12px;
 }
 
-/* Buttons: target IDs and bootstrap classes — force colors */
-.btn-select, .btn {
-  border-radius: 8px !important;
-  padding: .75rem .85rem !important;
-  font-weight: 600 !important;
-  box-shadow: none !important;
+/* Cards / Question boxes (Kacheln) */
+.question{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+.question-title{
+font-size:18px;
+font-weight:700;
+color:var(--primary);
+}
+.question-text{
+color:var(--muted);
+font-size:14px;
 }
 
-/* Specific button colors (IDs used in your HTML) */
-#btn-important { background: #fff !important; border: 1px solid #e6e9ef !important; color: var(--wo-primary) !important; }
-#btn-yes, .btn-success { background-color: var(--wo-yes) !important; border-color: var(--wo-yes) !important; color: #fff !important; }
-#btn-neutral, .btn-warning { background-color: var(--wo-neutral) !important; border-color: var(--wo-neutral) !important; color: rgba(0,0,0,0.85) !important; }
-#btn-no, .btn-danger { background-color: var(--wo-no) !important; border-color: var(--wo-no) !important; color: #fff !important; }
-#btn-skip, .btn-secondary { background-color: #f8f9fa !important; border: 1px solid #e9ecef !important; color: var(--wo-muted) !important; }
+/* Answer tiles (selectable) */
+.answer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:12px;
+}
+.answer-tile{
+background:var(--card);
+border-radius:10px;
+padding:14px;
+border:1px solid rgba(11,59,102,0.06);
+cursor:pointer;
+transition:transform .12s ease, box-shadow .12s ease, border-color .12s;
+box-shadow:var(--shadow-soft);
+display:flex;
+align-items:center;
+gap:12px;
+}
+.answer-tile:hover{transform:translateY(-4px); box-shadow:var(--shadow-strong)}
+.answer-tile.selected{
+border-color:var(--accent);
+box-shadow:0 10px 30px rgba(255,177,0,0.12);
+transform:translateY(-6px);
+}
+.answer-tile .badge{
+min-width:36px;
+height:36px;
+border-radius:8px;
+background:var(--surface);
+display:inline-flex;
+align-items:center;
+justify-content:center;
+color:var(--primary);
+font-weight:700;
+*
 
-/* Make icon/text layout consistent */
-.btn-select .fa-check, .btn-select .fa-ban, .btn-select .fa-circle, .btn-select .fa-minus {
-  margin-right: .5rem !important;
-  font-size: 1.05rem !important;
+/* Progress / Stepper */
+.progress-wrap{
+background:transparent;
+padding:8px 0 18px 0;
+}
+.progress{
+height:10px;
+background:linear-gradient(90deg,#e6eef8,#f3f6fb);
+border-radius:999px;
+overflow:hidden;
+}
+.progress > i{
+display:block;
+height:100%;
+background:linear-gradient(90deg,var(--accent),#ff8c00);
+width:0%;
+transition:width .28s ease;
 }
 
-/* Pagination dots */
-.pagination .page-link {
-  background: #e9eef9 !important;
-  color: var(--wo-primary) !important;
-  border: 0 !important;
-  width: 2rem !important;
-  height: 2rem !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+/* Result / Score cards */
+.result-grid{
+display:grid;
+grid-template-columns:1fr;
+gap:12px;
 }
-.pagination .page-item.active .page-link {
-  background: var(--wo-primary) !important;
-  color: #fff !important;
+.result-card{
+padding:16px;
+border-radius:12px;
+background:linear-gradient(180deg,#ffffff,#fbfdff);
+box-shadow:var(--shadow-soft);
+border:1px solid rgba(11,59,102,0.04);
+}
+.party-row{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:12px;
+}
+.party-left{
+display:flex;
+align-items:center;
+gap:12px;
+}
+.party-logo{
+width:48px;
+height:48px;
+border-radius:8px;
+background:var(--surface);
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+color:var(--primary);
+*
+
+/* Forms / Inputs */
+input[type="text"], textarea, select{
+width:100%;
+padding:10px 12px;
+border-radius:8px;
+border:1px solid rgba(15,23,42,0.06);
+background:white;
+font-size:14px;
+}
+label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
+
+/* Utilities */
+.text-muted{color:var(--muted)}
+.small{font-size:13px}
+.center{text-align:center}
+.flex{display:flex}
+.justify-between{justify-content:space-between}
+.align-center{align-items:center}
+
+/* Responsive tweaks (mobile-first) */
+@media(min-width:720px){
+body{padding:32px}
+.container{padding:0 24px}
+.question-title{font-size:20px}
+.answer-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+}
+@media(min-width:1000px){
+.row-nogap{gap:24px}
+.col-6{flex:0 0 48%}
 }
 
-/* Modal */
-.modal-content {
-  border-radius: 10px !important;
+/* Small helpers for replacing common Bootstrap classes */
+.text-right{text-align:right}
+.mb-1{margin-bottom:8px}
+.mb-2{margin-bottom:12px}
+.mb-3{margin-bottom:16px}
+.mt-1{margin-top:8px}
+.p-1{padding:8px}
+.p-2{padding:12px}
+
+/* Accessibility focus states */
+a:focus, button:focus, .answer-tile:focus{
+outline:3px solid rgba(11,59,102,0.12);
+outline-offset:3px;
 }
 
-/* Swype overlay */
-#swype-info-content {
-  background: rgba(0,51,102,0.95) !important;
-  color: #fff !important;
-  border-radius: 10px !important;
-}
+/* JS hooks (if your app toggles classes) /
+/ Add/remove .selected on .answer-tile to show chosen state /
+/ Set .progress > i { width: X%; } to update progress bar */
 
-/* Result cards & summaries */
-#result .card, #result-summary .card {
-  background: var(--wo-card) !important;
-  border: 0 !important;
-  box-shadow: 0 6px 18px rgba(15,20,30,0.06) !important;
-}
-
-/* Small utility */
-.text-info { color: var(--wo-primary) !important; }
-
+/* End of file */
