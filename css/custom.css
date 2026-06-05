@@ -1,202 +1,228 @@
-/* Base */
+**Providing complete CSS**
+
+The user asked for the full CSS file content, so I'll format it correctly using code blocks. I need to remember to put the CSS code inside triple backticks and specify the language as "css" to follow the developer's guidelines. I'll ensure it's concise, combining previously provided details with any necessary specificity boosters while also avoiding the color "hotpink." I’m ready to deliver this cleanly!```css
+/* css/custom.css - Wahl-O-Mat like theme */
+
+/* Root palette */
 :root{
   --wo-bg:#f4f6fb;
   --wo-card:#ffffff;
-  --wo-primary:#003366;    /* dunkelblau */
-  --wo-accent:#ffd400;     /* gelb */
-  --wo-yes:#28a745;        /* grün */
-  --wo-neutral:#ffc107;    /* gelb/orange */
-  --wo-no:#dc3545;         /* rot */
+  --wo-primary:#003366;
+  --wo-accent:#ffd400;
+  --wo-yes:#28a745;
+  --wo-neutral:#ffc107;
+  --wo-no:#dc3545;
   --wo-text:#1b1b1b;
   --wo-muted:#6c757d;
 }
 
 /* Page background + font */
-html,body{
-  background:var(--wo-bg);
-  color:var(--wo-text);
+html, body {
+  background: var(--wo-bg);
+  color: var(--wo-text);
   font-family: "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Jumbotron / Start */
-.jumbotron{
-  background:linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
-  border-radius:12px;
-  box-shadow:0 8px 24px rgba(15,20,30,0.08);
-  padding:2.5rem;
+.jumbotron {
+  background: linear-gradient(90deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15,20,30,0.06);
+  padding: 2.5rem;
 }
-
-.jumbotron img{
-  max-height:68px;
+.jumbotron img {
+  max-height: 68px;
 }
 
 /* Header logo in mahlowat view */
-#mahlowat img, #start img{
-  max-height:52px;
+#mahlowat img, #start img {
+  max-height: 52px;
 }
 
 /* Card styling (thesis + result cards) */
-.card{
-  background:var(--wo-card);
-  border:0;
-  border-radius:12px;
-  box-shadow:0 6px 18px rgba(15,20,30,0.06);
+.card {
+  background: var(--wo-card);
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15,20,30,0.06);
 }
 
 /* Thesis card specifics */
-#thesis-card{
-  padding:0;
-  overflow:hidden;
-  border-radius:12px;
+#thesis-card.card {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 /* Thesis title & text */
-#thesis-number{
-  color:var(--wo-muted);
-  margin-bottom:0.25rem;
+#thesis-number {
+  color: var(--wo-muted);
+  margin-bottom: 0.25rem;
 }
-#thesis-text{
-  font-size:1.15rem;
-  margin-bottom:0.75rem;
+#thesis-text {
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Info button */
-#btn-toggle-thesis-more{
-  background:transparent;
-  border:0;
-  color:var(--wo-primary);
-  padding:0;
+#btn-toggle-thesis-more {
+  background: transparent;
+  border: 0;
+  color: var(--wo-primary);
+  padding: 0;
 }
-#thesis-more{
-  margin-top:0.75rem;
-  color:var(--wo-muted);
+#thesis-more {
+  margin-top: 0.75rem;
+  color: var(--wo-muted);
 }
 
 /* Progress bar */
-.progress{
-  background:transparent;
+.progress {
+  background: transparent;
+  height: auto;
 }
-#overall-progress-bar{
-  background:linear-gradient(90deg,var(--wo-accent), #ffef9a);
-  height:0.5rem;
-  border-radius:6px;
+#overall-progress-bar {
+  background: linear-gradient(90deg, var(--wo-accent), #ffef9a) !important;
+  height: 0.5rem;
+  border-radius: 6px;
 }
 
 /* Question buttons layout */
-.btn-select{
-  border-radius:8px;
-  padding:0.75rem 0.85rem;
-  font-weight:600;
-  box-shadow:none;
+.btn-select {
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  font-weight: 600;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Specific colors: keep semantic ids used in HTML */
-#btn-important{
-  background:#ffffff;
-  border:1px solid #e6e9ef;
-  color:var(--wo-primary);
+/* Button specific styles (target IDs and fallback to bootstrap classes) */
+#btn-important {
+  background: #ffffff !important;
+  border: 1px solid #e6e9ef !important;
+  color: var(--wo-primary) !important;
 }
 
-#btn-yes{
-  background:var(--wo-yes);
-  border:0;
-  color:#fff;
+#btn-yes, .btn-success {
+  background-color: var(--wo-yes) !important;
+  border-color: var(--wo-yes) !important;
+  color: #fff !important;
 }
-#btn-neutral{
-  background:var(--wo-neutral);
-  border:0;
-  color:rgba(0,0,0,0.85);
+#btn-neutral, .btn-warning {
+  background-color: var(--wo-neutral) !important;
+  border-color: var(--wo-neutral) !important;
+  color: rgba(0,0,0,0.85) !important;
 }
-#btn-no{
-  background:var(--wo-no);
-  border:0;
-  color:#fff;
+#btn-no, .btn-danger {
+  background-color: var(--wo-no) !important;
+  border-color: var(--wo-no) !important;
+  color: #fff !important;
 }
-#btn-skip{
-  background:#f8f9fa;
-  border:1px solid #e9ecef;
-  color:var(--wo-muted);
+#btn-skip, .btn-secondary {
+  background-color: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  color: var(--wo-muted) !important;
 }
 
-/* Make icons and text align nicely */
+/* Icon spacing inside buttons */
 .btn-select .fa-check,
 .btn-select .fa-ban,
 .btn-select .fa-circle,
-.btn-select .fa-minus{
-  margin-right:0.5rem;
+.btn-select .fa-minus {
+  margin-right: 0.5rem;
+  font-size: 1.05rem;
 }
 
 /* Small buttons and links */
-.btn-sm.btn-light{
-  background:transparent;
-  border:0;
-  color:var(--wo-muted);
-  padding:0.25rem 0.5rem;
+.btn-sm.btn-light {
+  background: transparent;
+  border: 0;
+  color: var(--wo-muted);
+  padding: 0.25rem 0.5rem;
 }
 
 /* Result summary rows */
-.result-summary-row{
-  padding:0.5rem 0;
-  border-bottom:1px dashed rgba(0,0,0,0.04);
+.result-summary-row {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed rgba(0,0,0,0.04);
 }
 
 /* Result progress bars inside summary (if any) */
-.progress-bar.text-left{
-  background:linear-gradient(90deg,var(--wo-primary), #3a5f9e);
-  color:#fff;
+.progress-bar.text-left {
+  background: linear-gradient(90deg, var(--wo-primary), #3a5f9e);
+  color: #fff;
 }
 
 /* Pagination appearance (top small dots) */
-.pagination .page-link{
-  background:#e9eef9;
-  border-radius:50%;
-  width:2rem;
-  height:2rem;
-  margin:0 .15rem;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:var(--wo-primary);
-  border:0;
+.pagination .page-link {
+  background: #e9eef9;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 .15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--wo-primary);
+  border: 0;
 }
-.pagination .page-item.active .page-link{
-  background:var(--wo-primary);
-  color:#fff;
+.pagination .page-item.active .page-link {
+  background: var(--wo-primary);
+  color: #fff;
 }
 
 /* Modal (QA) */
-.modal-content{
-  border-radius:10px;
-  overflow:hidden;
+.modal-content {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /* Swype info overlay */
-#swype-info-content{
-  background:rgba(0,51,102,0.95);
-  color:#fff;
-  border-radius:10px;
+#swype-info-content {
+  background: rgba(0,51,102,0.95);
+  color: #fff;
+  border-radius: 10px;
 }
-#swype-info-message .btn{
-  background:var(--wo-accent);
-  color:#000;
-  border-radius:6px;
-  border:0;
+#swype-info-message .btn {
+  background: var(--wo-accent);
+  color: #000;
+  border-radius: 6px;
+  border: 0;
 }
 
-/* Utilities */
-.text-info{
-  color:var(--wo-primary) !important;
+/* Text info color */
+.text-info {
+  color: var(--wo-primary) !important;
 }
 
 /* Responsive tweaks */
-@media (max-width:767.98px){
-  .jumbotron{ padding:1.25rem; }
-  #thesis-card{ min-height:12rem; }
-  #mahlowat, #start{ padding-left:0.5rem; padding-right:0.5rem; }
+@media (max-width: 767.98px) {
+  .jumbotron { padding: 1.25rem; }
+  #thesis-card { min-height: 12rem; }
+  #mahlowat, #start { padding-left: 0.5rem; padding-right: 0.5rem; }
 }
 
-/* Ensure our overrides win over Bootstrap where needed */
-.btn, .card, .jumbotron, .progress-bar {
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+/* Specificity booster fallback for stubborn Bootstrap rules:
+   Using a higher-specificity selector where needed. */
+body #mahlowat .btn,
+body #start .jumbotron,
+body #thesis-card.card,
+body #overall-progress-bar {
+  /* selectors used to increase specificity; properties below override if necessary */
 }
+
+/* Optional small utility tweaks */
+.badge {
+  border-radius: 8px;
+}
+.result-detail-header,
+.result-detail-footer {
+  cursor: pointer;
+}
+
+/* End of custom.css */
+```
