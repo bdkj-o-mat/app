@@ -1,11 +1,11 @@
 :root{
   /* adjust these values to taste */
-  --site-bg: #fff4d9;
-  --site-bg-2: #fff0b8;    /* optional gradient end */
+  --site-bg: #ffb100;
+  --site-bg-2: #fff421;    /* optional gradient end */
   --container-bg: #ffffff;
-  --container-radius: 12px;
-  --btn-radius: 10px;
-  --btn-primary-bg: #0b3b66;
+  --container-radius: 0px;
+  --btn-radius: 0px;
+  --btn-primary-bg: #000000;
   --btn-primary-color: #ffffff;
   --btn-accent-bg: #ffb100;
   --btn-accent-color: #082033;
