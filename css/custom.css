@@ -115,3 +115,8 @@ body #mahlowat #btn-no {
 - Include this file after bootstrap.css.
 - Tweak the :root variables --jumbotron-bg and --jumbotron-radius to change jumbotron color and rounding. */
 
+
+/*Nachtrag, damit es auf der Ergebnisseite durchgehend Zeilenumbrüche gibt nach jedem Amt:*/
+div.col-12.col-md {
+  flex-basis: 100% !important;
+}
