@@ -1,91 +1,127 @@
 {
 	"theses": {
 		"0": {
-			"l": "These 1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-			"s": "These 1",
-			"x": "Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam er"
+			"l": "Im Rahmen meines Amtes möchte ich gerne Veranstaltungen planen und organisieren.",
+			"s": "Veranstaltungen",
+			"x": ""
 		},
 		"1": {
-			"l": "These 2 m dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ",
-			"s": "These 2",
+			"l": "Im Rahmen meines Amtes möchte ich gerne politische Positionen einbringen und/oder vertreten.",
+			"s": "Politik & Interessenvertretung",
 			"x": ""
 		},
 		"2": {
-			"l": "These 3 ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lore",
-			"s": "These 3",
-			"x": "takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+			"l": "Im Rahmen meines Amtes würde ich gerne Aufgaben im Bereich der Finanzen übernehmen.",
+			"s": "Finanzen",
+			"x": ""
 		},
 		"3": {
-			"l": "These 4 sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et ",
-			"s": "These 4",
-			"x": "tetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eo"
+			"l": "Ich arbeite am liebsten im Team.",
+			"s": "Teamwork",
+			"x": ""
 		},
 		"4": {
-			"l": "These 5 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et just",
-			"s": "These 5",
+			"l": "Es macht mir Spaß, zu moderieren oder vor großen Menschengruppen zu sprechen.",
+			"s": "Moderationsrolle",
 			"x": ""
 		},
 		"5": {
-			"l": "These 6 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel i",
-			"s": "These 6",
+			"l": "Ich möchte demokratische Strukturen innerhalb des BDKJ gestalten.",
+			"s": "Strukturen",
 			"x": ""
 		},
 		"6": {
-			"l": "These 7 tatum zzril delenit augue duis dolore te feugait nulla facilisi",
-			"s": "These 7",
+			"l": "Ich möchte an der Spirtualität im BDKJ mitwirken.",
+			"s": "Kreativität",
 			"x": ""
 		},
 		"7": {
-			"l": "These 8 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eo",
-			"s": "These 8",
-			"x": "ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit a"
+			"l": "Ich möchte gerne mit anderen Jugendverbandler*innen in Kontakt kommen.",
+			"s": "Kontakt zu Jugendverbandler*innen",
+			"x": ""
 		},
 		"8": {
-			"l": "These 9 imata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos",
-			"s": "These 9",
+			"l": "Ich möchte gerne mit externen Menschen außerhalb des BDKJ in Kontakt kommen.",
+			"s": "Kontakt zu Externen",
 			"x": ""
 		},
 		"9": {
-			"l": "These 10 ergren, no sea takimata sanctus est Lorem ipsum dolor",
-			"s": "These 10",
+			"l": "Ich möchte eng mit anderen Gremien und/oder mit der BDKJ-Geschäftsstelle zusammenarbeiten.",
+			"s": "Zusammenarbeit mit anderen Gremien",
+			"x": ""
+		},
+		"10": {
+			"l": "Ein besonderes Anliegen ist es mir, Frauen und INTA*-Menschen im BDKJ zu vertreten.",
+			"s": "FINTA*",
+			"x": ""
+		},
+		"11": {
+			"l": "Der Einsatz Klima, Umweltschutz und Nachhaltigkeit ist mir ein Herzensanliegen.",
+			"s": "Nachhaltigkeit",
+			"x": ""
+		},
+		"12": {
+			"l": "Ich möchte mich verstärkt mit der Prävention sexualisierter Gewalt beschäftigen.",
+			"s": "Prävention sexualisierter Gewalt",
+			"x": ""
+		},
+		"13": {
+			"l": "Ich bringe viel Zeit mit.",
+			"s": "Zeitliche Ressourcen",
 			"x": ""
 		}
 	},
 	"lists": {
 		"0": {
-			"name": "Liste X",
-			"name_x": "Liste X"
+			"name": "Delegierte*r Landesjugendring RLP",
+			"name_x": "LJR RLP"
 		},
 		"1": {
-			"name": "Kugelschreibär",
-			"name_x": "STIFT"
+			"name": "Mitglied im BDKJ Trägerwerk e. V.",
+			"name_x": "Trägerwerk"
 		},
 		"2": {
-			"name": "Liste Oben",
-			"name_x": "Liste Oben"
+			"name": "Vorstand Lawnik-Lehr-Stiftung",
+			"name_x": "Lawnik-Lehr-Stiftung"
 		},
 		"3": {
-			"name": "The ACKERdemikerliste",
-			"name_x": "TACKER"
+			"name": "Mitglied im FINTA* Ausschuss",
+			"name_x": "FINTA* Ausschuss"
 		},
 		"4": {
-			"name": "Vitamin B",
-			"name_x": "Vitamin B"
+			"name": "Mitglied im Ausschuss Prävention sexualisierter Gewalt",
+			"name_x": "Ausschuss Prävention"
 		},
 		"5": {
-			"name": "Niemals nicht",
-			"name_x": "NEIN"
+			"name": "Mitglied im Ausschuss Nachhaltigkeit",
+			"name_x": "Ausschuss Nachhaltigkeit"
+		},
+		"6": {
+			"name": "Mitglied im Wahlausschuss",
+			"name_x": "Wahlausschuss"
+		},
+		"7": {
+			"name": "Mitglied im Satzungsausschuss",
+			"name_x": "Satzungsausschuss"
+		},
+		"8": {
+			"name": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes",
+			"name_x": "GVL"
+		},
+		"9": {
+			"name": "BDKJ-Diözesanvorsitzende*r",
+			"name_x": "BDKJ-Vorstand"
 		}
 	},
 	"answers": {
 		"0": {
 			"0": {
-				"selection": "a",
-				"statement": "Juche!"
+				"selection": "c",
+				"statement": ""
 			},
 			"1": {
 				"selection": "a",
-				"statement": "Noe."
+				"statement": ""
 			},
 			"2": {
 				"selection": "c",
@@ -104,11 +140,11 @@
 				"statement": ""
 			},
 			"6": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"7": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"8": {
@@ -116,18 +152,34 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "a",
+				"selection": "c",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
 				"statement": ""
 			}
 		},
 		"1": {
 			"0": {
 				"selection": "c",
-				"statement": "Moep"
+				"statement": ""
 			},
 			"1": {
-				"selection": "b",
-				"statement": "Yay"
+				"selection": "c",
+				"statement": "Das Team hat hierzu keine gemacht."
 			},
 			"2": {
 				"selection": "a",
@@ -138,27 +190,43 @@
 				"statement": ""
 			},
 			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
 				"selection": "b",
 				"statement": ""
 			},
+			"5": {
+				"selection": "c",
+				"statement": ""
+			},
 			"6": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"7": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"8": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"9": {
-				"selection": "a",
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
 				"statement": ""
 			}
 		},
@@ -168,11 +236,11 @@
 				"statement": ""
 			},
 			"1": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"2": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"3": {
@@ -180,19 +248,19 @@
 				"statement": ""
 			},
 			"4": {
-				"selection": "d",
+				"selection": "b",
 				"statement": ""
 			},
 			"5": {
 				"selection": "c",
-				"statement": ""
+				"statement": "Das Team hat hierzu keine Angaben gemacht."
 			},
 			"6": {
 				"selection": "c",
 				"statement": ""
 			},
 			"7": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"8": {
@@ -200,13 +268,29 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "a",
+				"selection": "c",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
 				"statement": ""
 			}
 		},
 		"3": {
 			"0": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"1": {
@@ -214,7 +298,7 @@
 				"statement": ""
 			},
 			"2": {
-				"selection": "a",
+				"selection": "c",
 				"statement": ""
 			},
 			"3": {
@@ -222,19 +306,19 @@
 				"statement": ""
 			},
 			"4": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
 				"selection": "a",
 				"statement": ""
 			},
+			"6": {
+				"selection": "b",
+				"statement": ""
+			},
 			"7": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
@@ -242,17 +326,33 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "c",
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "a",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
 				"statement": ""
 			}
 		},
 		"4": {
 			"0": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"1": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"2": {
@@ -260,7 +360,7 @@
 				"statement": ""
 			},
 			"3": {
-				"selection": "c",
+				"selection": "a",
 				"statement": ""
 			},
 			"4": {
@@ -268,7 +368,7 @@
 				"statement": ""
 			},
 			"5": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"6": {
@@ -276,15 +376,31 @@
 				"statement": ""
 			},
 			"7": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"8": {
-				"selection": "a",
+				"selection": "b",
 				"statement": ""
 			},
 			"9": {
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
 				"selection": "a",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
 				"statement": ""
 			}
 		},
@@ -302,11 +418,11 @@
 				"statement": ""
 			},
 			"3": {
-				"selection": "b",
+				"selection": "a",
 				"statement": ""
 			},
 			"4": {
-				"selection": "c",
+				"selection": "b",
 				"statement": ""
 			},
 			"5": {
@@ -314,11 +430,185 @@
 				"statement": ""
 			},
 			"6": {
+				"selection": "b",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
+				"statement": ""
+			},
+			"8": {
+				"selection": "b",
+				"statement": ""
+			},
+			"9": {
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "a",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
+				"statement": ""
+			}
+		},
+		"6": {
+			"0": {
+				"selection": "c",
+				"statement": ""
+			},
+			"1": {
+				"selection": "c",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
 				"selection": "c",
 				"statement": ""
 			},
 			"7": {
+				"selection": "a",
+				"statement": ""
+			},
+			"8": {
+				"selection": "b",
+				"statement": ""
+			},
+			"9": {
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
+				"statement": ""
+			}
+		},
+		"7": {
+			"0": {
 				"selection": "c",
+				"statement": ""
+			},
+			"1": {
+				"selection": "c",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "c",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "c",
+				"statement": ""
+			},
+			"7": {
+				"selection": "b",
+				"statement": ""
+			},
+			"8": {
+				"selection": "c",
+				"statement": ""
+			},
+			"9": {
+				"selection": "b",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "b",
+				"statement": ""
+			}
+		},
+		"8": {
+			"0": {
+				"selection": "a",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "a",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
 				"statement": ""
 			},
 			"8": {
@@ -326,6 +616,80 @@
 				"statement": ""
 			},
 			"9": {
+				"selection": "a",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
+				"selection": "a",
+				"statement": ""
+			}
+		},
+		"9": {
+			"0": {
+				"selection": "a",
+				"statement": ""
+			},
+			"1": {
+				"selection": "a",
+				"statement": ""
+			},
+			"2": {
+				"selection": "c",
+				"statement": ""
+			},
+			"3": {
+				"selection": "a",
+				"statement": ""
+			},
+			"4": {
+				"selection": "a",
+				"statement": ""
+			},
+			"5": {
+				"selection": "a",
+				"statement": ""
+			},
+			"6": {
+				"selection": "b",
+				"statement": ""
+			},
+			"7": {
+				"selection": "a",
+				"statement": ""
+			},
+			"8": {
+				"selection": "a",
+				"statement": ""
+			},
+			"9": {
+				"selection": "a",
+				"statement": ""
+			},
+			"10": {
+				"selection": "b",
+				"statement": ""
+			},
+			"11": {
+				"selection": "b",
+				"statement": ""
+			},
+			"12": {
+				"selection": "b",
+				"statement": ""
+			},
+			"13": {
 				"selection": "a",
 				"statement": ""
 			}
