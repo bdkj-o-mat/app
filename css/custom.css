@@ -252,7 +252,7 @@ body.custom-wm, .custom-wm body {
 
 /* Force page background to yellow/orange */
 html, body {
-  background: linear-gradient(180deg, #e17400 20%, #ff8f00 80%) !important;
+  background: linear-gradient(180deg, #e17400 0%, #ffb300 100%) !important;
   color: #1b1b1b !important;
 }
 
@@ -267,7 +267,7 @@ body .btn {
 
 /* Preserve semantic colors for yes/neutral/no if you want them different */
 body #mahlowat #btn-yes { background-color: #77b800 !important; border-color: #000000 !important; color: #fff !important; }
-body #mahlowat #btn-neutral { background-color: #ffffff !important; border-color: #000000 !important; color: #fff !important; }
+body #mahlowat #btn-neutral { background-color: #ffffff !important; border-color: #000000 !important; color: #000000 !important; }
 body #mahlowat #btn-no { background-color: #e2001a !important; border-color: #000000 !important; color: #fff !important; }
 
 /* Specific: override .btn-primary from Bootstrap */
