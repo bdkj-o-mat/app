@@ -1,17 +1,17 @@
 {
 	"theses": {
 		"0": {
-			"l": "Im Rahmen meines Amtes möchte ich gerne Veranstaltungen planen und organisieren.",
+			"l": "Ich möchte gerne Veranstaltungen planen und organisieren.",
 			"s": "Veranstaltungen",
 			"x": ""
 		},
 		"1": {
-			"l": "Im Rahmen meines Amtes möchte ich gerne politische Positionen einbringen und/oder vertreten.",
-			"s": "Politik & Interessenvertretung",
+			"l": "Ich möchte mich mit politische Positionen einbringen und/oder sie für den BDKJ vertreten.",
+			"s": "Interessenvertretung",
 			"x": ""
 		},
 		"2": {
-			"l": "Im Rahmen meines Amtes würde ich gerne Aufgaben im Bereich der Finanzen übernehmen.",
+			"l": "Ich möchte bevorzugt Aufgaben im Bereich Finanzen übernehmen.",
 			"s": "Finanzen",
 			"x": ""
 		},
@@ -22,17 +22,17 @@
 		},
 		"4": {
 			"l": "Es macht mir Spaß, zu moderieren oder vor großen Menschengruppen zu sprechen.",
-			"s": "Moderationsrolle",
+			"s": "Moderation",
 			"x": ""
 		},
 		"5": {
 			"l": "Ich möchte demokratische Strukturen innerhalb des BDKJ gestalten.",
-			"s": "Strukturen",
+			"s": "Verbandliche Demokratie",
 			"x": ""
 		},
 		"6": {
-			"l": "Ich möchte an der Spirtualität im BDKJ mitwirken.",
-			"s": "Kreativität",
+			"l": "Ich möchte bevorzugt an der Spirtualität im BDKJ mitwirken.",
+			"s": "Spiritualität",
 			"x": ""
 		},
 		"7": {
@@ -42,12 +42,12 @@
 		},
 		"8": {
 			"l": "Ich möchte gerne mit externen Menschen außerhalb des BDKJ in Kontakt kommen.",
-			"s": "Kontakt zu Externen",
+			"s": "Kontakt nach außen",
 			"x": ""
 		},
 		"9": {
-			"l": "Ich möchte eng mit anderen Gremien und/oder mit der BDKJ-Geschäftsstelle zusammenarbeiten.",
-			"s": "Zusammenarbeit mit anderen Gremien",
+			"l": "Ich möchte den BDKJ als Gesamtverband leiten.",
+			"s": "Leitung des Verbandes",
 			"x": ""
 		},
 		"10": {
@@ -66,7 +66,7 @@
 			"x": ""
 		},
 		"13": {
-			"l": "Ich bringe viel Zeit mit.",
+			"l": "Ich bin bereit, viel Zeit in mein Ehrenamt zu investieren.",
 			"s": "Zeitliche Ressourcen",
 			"x": ""
 		}
@@ -210,7 +210,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -326,7 +326,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -384,7 +384,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -442,7 +442,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -500,7 +500,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
@@ -558,7 +558,7 @@
 				"statement": ""
 			},
 			"9": {
-				"selection": "b",
+				"selection": "c",
 				"statement": ""
 			},
 			"10": {
