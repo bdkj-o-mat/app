@@ -2,8 +2,8 @@
   /* adjust these values to taste */
   --site-bg: #ffb100;
   --site-bg-2: #fff421;    /* optional gradient end */
-  --container-bg: #ffffff;
-  --container-radius: 0px;
+  --card-bg: #ffffff;
+  --card-radius: 0px;
   --btn-radius: 0px;
   --btn-primary-bg: #000000;
   --btn-primary-color: #ffffff;
@@ -22,12 +22,13 @@ html, body {
   padding: 0;
 }
 
-/* Container override: rounded corners & background color only */
-.container, .container-fluid {
-  background: var(--container-bg) !important;
-  border-radius: var(--container-radius) !important;
+/* Card override: rounded corners & background color only */
+.card, .card-body {
+  background: var(--card-bg) !important;
+  border-radius: var(--card-radius) !important;
   /* keep Bootstrap's layout behavior (padding/width) intact */
-  box-shadow: none !important; /* optional */
+  box-shadow: none !important; /* optional: remove if you don't want it */
+  border: 1px solid rgba(0,0,0,0.04) !important; /* subtle border, optional */
 }
 
 /* Buttons: base + primary, accent and outline variants */
@@ -94,4 +95,4 @@ body #mahlowat #btn-no {
 
 /* Notes:
 - Include this file after bootstrap.css.
-- Tweak the :root variables to change background, container and button colors/radius. */
+- Tweak the :root variables to change background, card and button colors/radius. */
