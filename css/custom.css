@@ -1,1 +1,202 @@
+/* Base */
+:root{
+  --wo-bg:#f4f6fb;
+  --wo-card:#ffffff;
+  --wo-primary:#003366;    /* dunkelblau */
+  --wo-accent:#ffd400;     /* gelb */
+  --wo-yes:#28a745;        /* grün */
+  --wo-neutral:#ffc107;    /* gelb/orange */
+  --wo-no:#dc3545;         /* rot */
+  --wo-text:#1b1b1b;
+  --wo-muted:#6c757d;
+}
 
+/* Page background + font */
+html,body{
+  background:var(--wo-bg);
+  color:var(--wo-text);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Jumbotron / Start */
+.jumbotron{
+  background:linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+  border-radius:12px;
+  box-shadow:0 8px 24px rgba(15,20,30,0.08);
+  padding:2.5rem;
+}
+
+.jumbotron img{
+  max-height:68px;
+}
+
+/* Header logo in mahlowat view */
+#mahlowat img, #start img{
+  max-height:52px;
+}
+
+/* Card styling (thesis + result cards) */
+.card{
+  background:var(--wo-card);
+  border:0;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(15,20,30,0.06);
+}
+
+/* Thesis card specifics */
+#thesis-card{
+  padding:0;
+  overflow:hidden;
+  border-radius:12px;
+}
+
+/* Thesis title & text */
+#thesis-number{
+  color:var(--wo-muted);
+  margin-bottom:0.25rem;
+}
+#thesis-text{
+  font-size:1.15rem;
+  margin-bottom:0.75rem;
+}
+
+/* Info button */
+#btn-toggle-thesis-more{
+  background:transparent;
+  border:0;
+  color:var(--wo-primary);
+  padding:0;
+}
+#thesis-more{
+  margin-top:0.75rem;
+  color:var(--wo-muted);
+}
+
+/* Progress bar */
+.progress{
+  background:transparent;
+}
+#overall-progress-bar{
+  background:linear-gradient(90deg,var(--wo-accent), #ffef9a);
+  height:0.5rem;
+  border-radius:6px;
+}
+
+/* Question buttons layout */
+.btn-select{
+  border-radius:8px;
+  padding:0.75rem 0.85rem;
+  font-weight:600;
+  box-shadow:none;
+}
+
+/* Specific colors: keep semantic ids used in HTML */
+#btn-important{
+  background:#ffffff;
+  border:1px solid #e6e9ef;
+  color:var(--wo-primary);
+}
+
+#btn-yes{
+  background:var(--wo-yes);
+  border:0;
+  color:#fff;
+}
+#btn-neutral{
+  background:var(--wo-neutral);
+  border:0;
+  color:rgba(0,0,0,0.85);
+}
+#btn-no{
+  background:var(--wo-no);
+  border:0;
+  color:#fff;
+}
+#btn-skip{
+  background:#f8f9fa;
+  border:1px solid #e9ecef;
+  color:var(--wo-muted);
+}
+
+/* Make icons and text align nicely */
+.btn-select .fa-check,
+.btn-select .fa-ban,
+.btn-select .fa-circle,
+.btn-select .fa-minus{
+  margin-right:0.5rem;
+}
+
+/* Small buttons and links */
+.btn-sm.btn-light{
+  background:transparent;
+  border:0;
+  color:var(--wo-muted);
+  padding:0.25rem 0.5rem;
+}
+
+/* Result summary rows */
+.result-summary-row{
+  padding:0.5rem 0;
+  border-bottom:1px dashed rgba(0,0,0,0.04);
+}
+
+/* Result progress bars inside summary (if any) */
+.progress-bar.text-left{
+  background:linear-gradient(90deg,var(--wo-primary), #3a5f9e);
+  color:#fff;
+}
+
+/* Pagination appearance (top small dots) */
+.pagination .page-link{
+  background:#e9eef9;
+  border-radius:50%;
+  width:2rem;
+  height:2rem;
+  margin:0 .15rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--wo-primary);
+  border:0;
+}
+.pagination .page-item.active .page-link{
+  background:var(--wo-primary);
+  color:#fff;
+}
+
+/* Modal (QA) */
+.modal-content{
+  border-radius:10px;
+  overflow:hidden;
+}
+
+/* Swype info overlay */
+#swype-info-content{
+  background:rgba(0,51,102,0.95);
+  color:#fff;
+  border-radius:10px;
+}
+#swype-info-message .btn{
+  background:var(--wo-accent);
+  color:#000;
+  border-radius:6px;
+  border:0;
+}
+
+/* Utilities */
+.text-info{
+  color:var(--wo-primary) !important;
+}
+
+/* Responsive tweaks */
+@media (max-width:767.98px){
+  .jumbotron{ padding:1.25rem; }
+  #thesis-card{ min-height:12rem; }
+  #mahlowat, #start{ padding-left:0.5rem; padding-right:0.5rem; }
+}
+
+/* Ensure our overrides win over Bootstrap where needed */
+.btn, .card, .jumbotron, .progress-bar {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
