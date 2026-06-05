@@ -4,7 +4,7 @@
   --site-bg-2: #fff421;    /* optional gradient end */
   --card-bg: #ffffff;
   --card-radius: 0px;
-  --jumbotron-bg: rgba(255,255,255,0.06); /* default jumbotron background */
+  --jumbotron-bg: #ffffff; /* default jumbotron background */
   --jumbotron-radius: 0px;               /* default jumbotron radius */
   --btn-radius: 0px;
   --btn-primary-bg: #000000;
