@@ -14,8 +14,7 @@ function () {
 
     this.page_title = "BDKJ-O-MAT";
     this.qa_modal_title = "Fragen &amp; Antworten";
-    this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>\
-\
+	this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>\
 					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ DV 2026_1 informieren kannst. Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>\
 \
 					<h4>Wo bekomme ich mehr Infos?</h4>\
