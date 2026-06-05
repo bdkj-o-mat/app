@@ -26,8 +26,8 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Finde heraus, für welches Wahlamt du dich auf der BDKJ-DV bewerben solltest!";
-    this.start_explanatory_text = "<p>powered by Mahlowat.</p>";
+    this.start_subtitle = "Welches Wahlamt passt zu dir?";
+    this.start_explanatory_text = "<p>Beantworte ein paar Fragen und finde es heraus.</p>";
     this.btn_start = "Start";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
