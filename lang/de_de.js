@@ -1,4 +1,4 @@
-"use strict";
+n"use strict";
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -15,7 +15,7 @@ function () {
     this.page_title = "BDKJ-O-MAT";
     this.qa_modal_title = "Fragen &amp; Antworten";
 	this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>\
-					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung 2026_1 informieren kannst. Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>\
+					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung 2026_1 informieren kannst. Du kannst ausprobieren, welches Wahlamt am ehesten mit deinen Wünschen und Zielen übereinstimmt. Der BDKJ-O-MAT ist keine Kandidaturempfehlung, sondern ein Informationsangebot rund um die Wahlen auf der DV.</p>\
 \
 					<h4>Wo bekomme ich mehr Infos?</h4>\
 					<p>Der BDKJ-O-MAT ist ein Angebot des Wahlausschusses zur DV 2026_1. Den Wahlausschuss erreichst du unter <a href="wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Die aktuell ausgeschriebenen (Ehren-)Ämter findest du\
@@ -28,7 +28,7 @@ function () {
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
     this.start_subtitle = "Welches Wahlamt passt zu dir?";
-    this.start_explanatory_text = "<p>Die Wahlen auf der BDKJ-DV stehen bevor, aber du weißt noch gar nicht welches Amt das Richtige für dich wäre? Beantworte ein paar Fragen und finde es heraus!</p>";
+    this.start_explanatory_text = "<p>Die Wahlen auf der BDKJ-DV stehen bevor, aber du weißt noch gar nicht, welches Amt das Richtige für dich wäre? Beantworte ein paar Fragen und finde es heraus!</p>";
     this.btn_start = "Start";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
