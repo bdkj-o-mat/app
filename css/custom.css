@@ -4,6 +4,8 @@
   --site-bg-2: #fff421;    /* optional gradient end */
   --card-bg: #ffffff;
   --card-radius: 0px;
+  --jumbotron-bg: rgba(255,255,255,0.06); /* default jumbotron background */
+  --jumbotron-radius: 0px;               /* default jumbotron radius */
   --btn-radius: 0px;
   --btn-primary-bg: #000000;
   --btn-primary-color: #ffffff;
@@ -20,6 +22,16 @@ html, body {
   color: inherit;
   margin: 0;
   padding: 0;
+}
+
+/* Jumbotron / hero (Bootstrap 3/4 .jumbotron + custom .hero) */
+.jumbotron,
+.hero {
+  background: var(--jumbotron-bg) !important;
+  border-radius: var(--jumbotron-radius) !important;
+  padding: 2rem 1rem !important; /* keep a reasonable default */
+  margin-bottom: 1.5rem !important;
+  border: 1px solid rgba(0,0,0,0.04) !important; /* subtle border, optional */
 }
 
 /* Card override: rounded corners & background color only */
@@ -95,4 +107,5 @@ body #mahlowat #btn-no {
 
 /* Notes:
 - Include this file after bootstrap.css.
-- Tweak the :root variables to change background, card and button colors/radius. */
+- Tweak the :root variables --jumbotron-bg and --jumbotron-radius to change jumbotron color and rounding. */
+
