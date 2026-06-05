@@ -90,19 +90,19 @@ html, body {
 
 /* Specific overrides for #mahlowat buttons (kept as requested) */
 body #mahlowat #btn-yes {
-  background-color: #000000 !important;
+  background-color: #28a745 !important;
   border-color: #000000 !important;
   color: #fff !important;
 }
 body #mahlowat #btn-neutral {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
   border-color: #000000 !important;
-  color: rgba(0,0,0,0.85) !important;
+  color: #000000 !important;
 }
 body #mahlowat #btn-no {
-  background-color: #000000 !important;
-  border-color: #000000 !important;
-  color: #fff !important;
+  background-color: #dc3545 !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 /* Notes:
