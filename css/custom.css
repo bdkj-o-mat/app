@@ -274,17 +274,9 @@ body #mahlowat #btn-no { background-color: #e2001a !important; border-color: #00
 body .btn.btn-primary {
   background-color: #000 !important;
   border-color: #000 !important;
+  border-radius: 0px !important;
   color: #fff !important;
 }
-
-
-/* Progress bar color example (optional) */
-#overall-progress-bar {
-  background: linear-gradient(90deg,#ffd400,#ffb84d) !important;
-  height: .5rem !important;
-  border-radius: 6px !important;
-}
-
 
 /* End of custom.css */
 
