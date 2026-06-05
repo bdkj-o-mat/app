@@ -252,7 +252,7 @@ body.custom-wm, .custom-wm body {
 
 /* Force page background to warm yellow/orange */
 html, body {
-  background: linear-gradient(180deg, #fff4d9 0%, #fff0b8 100%) !important;
+  background: linear-gradient(180deg, #ffb300 20%, #fdb924 80%) !important;
   color: #1b1b1b !important;
 }
 
