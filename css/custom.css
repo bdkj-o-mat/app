@@ -54,6 +54,7 @@ html, body {
   border-radius: var(--btn-radius) !important;
   font-weight: 700;
   padding: 10px 16px;
+  margin: 3px;
   transition: transform .08s ease, box-shadow .08s ease;
   border: 1px solid transparent !important;
   background-image: none !important; /* remove Bootstrap gradient if present */
