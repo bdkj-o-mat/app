@@ -18,7 +18,7 @@ function () {
 					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung 2026_1 informieren kannst. Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>\
 \
 					<h4>Wo bekomme ich mehr Infos?</h4>\
-					<p>Der BDKJ-O-MAT ist ein Angebot des Wahlausschusses zur DV 2026_1. Den Wahlausschuss erreichst du unter <a href="wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, Wahlvoraussetzungen und das Wahlverfahren geben. Die aktuell ausgeschriebenen (Ehren-)Ämter findest du\
+					<p>Der BDKJ-O-MAT ist ein Angebot des Wahlausschusses zur DV 2026_1. Den Wahlausschuss erreichst du unter <a href="wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Die aktuell ausgeschriebenen (Ehren-)Ämter findest du\
 						<a href="https://bdkj-speyer.de/dvunterlagen">hier</a>.</p>\
 \
 					<h4>Wer hat den BDKJ-O-MAT programmiert?</h4>\
