@@ -1,285 +1,254 @@
+/* custom.css - high-priority Wahl-O-Mat style overrides */
 
-
-/* Variables */
+/* Palette & variables */
 :root{
---bg: #ffffff;
---surface: #f7f8fb;
---primary: #0b3b66;   
---accent: #ffb100;     
---muted: #6b7280;
---card: #ffffff;
---radius: 10px;
---gap: 16px;
---max-width: 1100px;
---shadow-strong: 0 6px 18px rgba(11,59,102,0.12);
---shadow-soft: 0 3px 8px rgba(11,59,102,0.06);
---font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --wm-bg: #ffffff;
+  --wm-surface: #f4f6fb;
+  --wm-primary: #0b3b66; /* dunkelblau */
+  --wm-accent: #ffb100;  /* orange */
+  --wm-muted: #6b7280;
+  --wm-card: #ffffff;
+  --wm-radius: 12px;
+  --wm-gap: 16px;
+  --wm-shadow-strong: 0 8px 28px rgba(11,59,102,0.12);
+  --wm-shadow-soft: 0 4px 12px rgba(11,59,102,0.06);
+  --wm-font: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Reset / Base */
-*{box-sizing:border-box}
-html,body{height:100%}
-body{
-margin:0;
-font-family:var(--font-sans);
-background:linear-gradient(180deg,var(--surface),var(--bg));
-color:#111827;
-line-height:1.45;
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
-padding:24px;
+/* Ensure custom font + base */
+body, html {
+  font-family: var(--wm-font) !important;
+  background: linear-gradient(180deg,var(--wm-surface),var(--wm-bg)) !important;
+  color: #0f172a !important;
 }
 
-/* Container / Grid (simple replacement for Bootstrap container/row/cols) */
-.container{
-max-width:var(--max-width);
-margin:0 auto;
-padding:0 16px;
-width:100%;
-}
-.row{
-display:flex;
-flex-wrap:wrap;
-gap:var(--gap);
-}
-.col{
-flex:1 1 0%;
-min-width:0;
-}
-.col-1{flex:0 0 8.333%}
-.col-2{flex:0 0 16.666%}
-.col-3{flex:0 0 25%}
-.col-4{flex:0 0 33.333%}
-.col-6{flex:0 0 50%}
-.col-12{flex:0 0 100%}
-
-/* Header / Navbar */
-.site-header{
-background:var(--primary);
-color:white;
-padding:18px 20px;
-border-radius:12px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-box-shadow:var(--shadow-strong);
-}
-.site-title{
-font-size:20px;
-font-weight:700;
-letter-spacing:0.2px;
-}
-.site-sub{
-font-size:13px;
-color:rgba(255,255,255,0.9);
+/* Increase specificity to override Bootstrap where needed */
+body.custom-wm, .custom-wm body {
+  font-family: var(--wm-font) !important;
 }
 
-/* Card / Panel */
-.card{
-background:var(--card);
-border-radius:var(--radius);
-padding:18px;
-box-shadow:var(--shadow-soft);
-border:1px solid rgba(15,23,42,0.04);
+/* Header / navbar override */
+.navbar, .navbar* {
+  background: var(--wm-primary) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: var(--wm-shadow-strong) !important;
+  border-radius: var(--wm-radius) !important;
 }
-.surface{
-background:var(--surface);
-border-radius:12px;
-padding:14px;
-}
-
-/* Buttons */
-.btn{
-display:inline-flex;
-align-items:center;
-justify-content:center;
-gap:10px;
-padding:10px 16px;
-border-radius:10px;
-font-weight:600;
-cursor:pointer;
-border:none;
-text-decoration:none;
-color:white;
-background:var(--primary);
-box-shadow:0 4px 12px rgba(11,59,102,0.12);
-transition:transform .08s ease, box-shadow .08s ease, opacity .08s;
-}
-.btn:active{transform:translateY(1px)}
-.btn.ghost{
-background:transparent;
-color:var(--primary);
-border:1px solid rgba(11,59,102,0.08);
-box-shadow:none;
-}
-.btn-accent{
-background:linear-gradient(180deg,var(--accent),#ff9a00);
-color:#082033;
-box-shadow:0 6px 18px rgba(255,177,0,0.18);
+.navbar .navbar-brand, .navbar-brand, .navbar-brand * {
+  color: #fff !important;
+  font-weight: 700 !important;
 }
 
-/* Large primary action like Wahl-O-Mat "Weiter" */
-.btn-lg{
-padding:14px 20px;
-font-size:16px;
-border-radius:12px;
+/* Container adjustments */
+.container, .container-fluid {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 18px !important;
+  padding-right: 18px !important;
 }
 
-/* Cards / Question boxes (Kacheln) */
-.question{
-display:flex;
-flex-direction:column;
-gap:12px;
-}
-.question-title{
-font-size:18px;
-font-weight:700;
-color:var(--primary);
-}
-.question-text{
-color:var(--muted);
-font-size:14px;
+/* Cards */
+.card {
+  background: var(--wm-card) !important;
+  border-radius: var(--wm-radius) !important;
+  box-shadow: var(--wm-shadow-soft) !important;
+  border: 1px solid rgba(11,59,102,0.04) !important;
+  padding: 18px !important;
 }
 
-/* Answer tiles (selectable) */
-.answer-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:12px;
+/* Buttons - primary, secondary, accent */
+.btn {
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+  padding: 10px 16px !important;
+  box-shadow: 0 6px 18px rgba(11,59,102,0.12) !important;
+  transition: transform .08s ease, box-shadow .08s ease !important;
 }
-.answer-tile{
-background:var(--card);
-border-radius:10px;
-padding:14px;
-border:1px solid rgba(11,59,102,0.06);
-cursor:pointer;
-transition:transform .12s ease, box-shadow .12s ease, border-color .12s;
-box-shadow:var(--shadow-soft);
-display:flex;
-align-items:center;
-gap:12px;
-}
-.answer-tile:hover{transform:translateY(-4px); box-shadow:var(--shadow-strong)}
-.answer-tile.selected{
-border-color:var(--accent);
-box-shadow:0 10px 30px rgba(255,177,0,0.12);
-transform:translateY(-6px);
-}
-.answer-tile .badge{
-min-width:36px;
-height:36px;
-border-radius:8px;
-background:var(--surface);
-display:inline-flex;
-align-items:center;
-justify-content:center;
-color:var(--primary);
-font-weight:700;
-*
+.btn:active { transform: translateY(1px) !important; }
 
-/* Progress / Stepper */
-.progress-wrap{
-background:transparent;
-padding:8px 0 18px 0;
+.btn-primary, .btn.btn-primary {
+  background: var(--wm-primary) !important;
+  color: #fff !important;
+  border: none !important;
 }
-.progress{
-height:10px;
-background:linear-gradient(90deg,#e6eef8,#f3f6fb);
-border-radius:999px;
-overflow:hidden;
+.btn-secondary, .btn.btn-outline-secondary {
+  background: transparent !important;
+  color: var(--wm-primary) !important;
+  border: 1px solid rgba(11,59,102,0.08) !important;
+  box-shadow: none !important;
 }
-.progress > i{
-display:block;
-height:100%;
-background:linear-gradient(90deg,var(--accent),#ff8c00);
-width:0%;
-transition:width .28s ease;
+.btn-accent {
+  background: linear-gradient(180deg,var(--wm-accent),#ff9a00) !important;
+  color: #082033 !important;
+  box-shadow: 0 8px 22px rgba(255,177,0,0.14) !important;
 }
 
-/* Result / Score cards */
-.result-grid{
-display:grid;
-grid-template-columns:1fr;
-gap:12px;
-}
-.result-card{
-padding:16px;
-border-radius:12px;
-background:linear-gradient(180deg,#ffffff,#fbfdff);
-box-shadow:var(--shadow-soft);
-border:1px solid rgba(11,59,102,0.04);
-}
-.party-row{
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:12px;
-}
-.party-left{
-display:flex;
-align-items:center;
-gap:12px;
-}
-.party-logo{
-width:48px;
-height:48px;
-border-radius:8px;
-background:var(--surface);
-display:flex;
-align-items:center;
-justify-content:center;
-font-weight:700;
-color:var(--primary);
-*
-
-/* Forms / Inputs */
-input[type="text"], textarea, select{
-width:100%;
-padding:10px 12px;
-border-radius:8px;
-border:1px solid rgba(15,23,42,0.06);
-background:white;
-font-size:14px;
-}
-label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
-
-/* Utilities */
-.text-muted{color:var(--muted)}
-.small{font-size:13px}
-.center{text-align:center}
-.flex{display:flex}
-.justify-between{justify-content:space-between}
-.align-center{align-items:center}
-
-/* Responsive tweaks (mobile-first) */
-@media(min-width:720px){
-body{padding:32px}
-.container{padding:0 24px}
-.question-title{font-size:20px}
-.answer-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-}
-@media(min-width:1000px){
-.row-nogap{gap:24px}
-.col-6{flex:0 0 48%}
+/* Large primary action like "Weiter" */
+.btn-lg, .btn.btn-lg {
+  padding: 14px 20px !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
 }
 
-/* Small helpers for replacing common Bootstrap classes */
-.text-right{text-align:right}
-.mb-1{margin-bottom:8px}
-.mb-2{margin-bottom:12px}
-.mb-3{margin-bottom:16px}
-.mt-1{margin-top:8px}
-.p-1{padding:8px}
-.p-2{padding:12px}
-
-/* Accessibility focus states */
-a:focus, button:focus, .answer-tile:focus{
-outline:3px solid rgba(11,59,102,0.12);
-outline-offset:3px;
+/* Question area */
+.wm-question, .question, .qa-card {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+.wm-question .title, .question-title {
+  color: var(--wm-primary) !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+.wm-question .lead, .question-text {
+  color: var(--wm-muted) !important;
+  font-size: 14px !important;
 }
 
-/* JS hooks (if your app toggles classes) /
-/ Add/remove .selected on .answer-tile to show chosen state /
-/ Set .progress > i { width: X%; } to update progress bar */
+/* Answer tiles (selectable) - grid + tile */
+.wm-answers, .answer-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 12px !important;
+}
+.wm-answers .answer, .answer-tile, .list-group-item {
+  background: var(--wm-card) !important;
+  border-radius: 10px !important;
+  padding: 14px !important;
+  border: 1px solid rgba(11,59,102,0.06) !important;
+  cursor: pointer !important;
+  box-shadow: var(--wm-shadow-soft) !important;
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+.wm-answers .answer:hover, .answer-tile:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--wm-shadow-strong) !important;
+}
+.wm-answers .answer.selected, .answer-tile.selected, .list-group-item.active {
+  border-color: var(--wm-accent) !important;
+  box-shadow: 0 10px 30px rgba(255,177,0,0.12) !important;
+  transform: translateY(-6px) !important;
+}
 
-/* End of file */
+/* Badge inside tile */
+.answer .badge, .answer-tile .badge {
+  min-width: 36px !important;
+  height: 36px !important;
+  border-radius: 8px !important;
+  background: var(--wm-surface) !important;
+  color: var(--wm-primary) !important;
+  font-weight: 800 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Progress bar / stepper */
+.wm-progress, .progress {
+  background: linear-gradient(90deg,#e6eef8,#f3f6fb) !important;
+  border-radius: 999px !important;
+  height: 12px !important;
+  overflow: hidden !important;
+}
+.wm-progress .progress-bar, .progress .progress-bar, .progress > .bar, .progress > i {
+  background: linear-gradient(90deg,var(--wm-accent),#ff8c00) !important;
+  height: 100% !important;
+  width: 0% !important; /* update via inline style or JS */
+  transition: width .28s ease !important;
+  box-shadow: none !important;
+}
+
+/* Result / party list */
+.wm-result, .result, .party-list {
+  display: grid !important;
+  gap: 12px !important;
+}
+.wm-result .party, .result-card, .party-row {
+  padding: 12px 14px !important;
+  border-radius: 12px !important;
+  background: linear-gradient(180deg,#ffffff,#fbfdff) !important;
+  box-shadow: var(--wm-shadow-soft) !important;
+  border: 1px solid rgba(11,59,102,0.04) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+/* Party logo / avatar */
+.party-logo, .party-avatar {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 8px !important;
+  background: var(--wm-surface) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 800 !important;
+  color: var(--wm-primary) !important;
+}
+
+/* Form controls adjustments to look flatter */
+.form-control, input.form-control, textarea.form-control, select.form-control {
+  border-radius: 8px !important;
+  border: 1px solid rgba(15,23,42,0.06) !important;
+  padding: 10px 12px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+/* Utility spacing overrides to align with Wahl-O-Mat spacing */
+.mt-1, .mb-1 { margin: 8px !important; }
+.mt-2, .mb-2 { margin: 12px !important; }
+.mt-3, .mb-3 { margin: 16px !important; }
+.p-1 { padding: 8px !important; }
+.p-2 { padding: 12px !important; }
+
+/* Text utilities */
+.text-muted, .small, .lead {
+  color: var(--wm-muted) !important;
+}
+.site-title, .wm-title {
+  color: var(--wm-primary) !important;
+  font-weight: 800 !important;
+}
+
+/* Focus / accessibility */
+.btn:focus, .answer:focus, .answer-tile:focus, a:focus {
+  outline: 3px solid rgba(11,59,102,0.12) !important;
+  outline-offset: 3px !important;
+}
+
+/* Responsive tweaks */
+@media (min-width: 720px) {
+  .wm-answers, .answer-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important; }
+  .question-title { font-size: 20px !important; }
+}
+@media (min-width: 1000px) {
+  .container { padding-left: 24px !important; padding-right: 24px !important; }
+}
+
+/* If Bootstrap JS components like .modal are used, style them similarly */
+.modal-content {
+  border-radius: calc(var(--wm-radius) + 2px) !important;
+  box-shadow: var(--wm-shadow-strong) !important;
+  border: 1px solid rgba(11,59,102,0.04) !important;
+}
+
+/* Helper: make sure high-specificity Bootstrap classes are overridden */
+.btn.btn-primary, .btn.primary, .btn.btn-accent {
+  background-image: none !important;
+}
+
+/* Notes for usage:
+ - Include this file AFTER bootstrap.min.css in your HTML to apply overrides.
+ - Use JS to toggle .selected on answer tiles and to set progress width inline (e.g., style="width:45%").
+*/
+
+/* End of custom.css */
+
