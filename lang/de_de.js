@@ -14,14 +14,20 @@ function () {
 
     this.page_title = "BDKJ-O-MAT";
     this.qa_modal_title = "Fragen &amp; Antworten";
-    this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>
-					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ DV 2026_1 informieren kannst. Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>
-					<h4>Wo bekomme ich mehr Infos?</h4>
+    this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>\
+\
+					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ DV 2026_1 informieren kannst. Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>\
+\
+					<h4>Wo bekomme ich mehr Infos?</h4>\
+\
 					<p>Der Wahlausschuss kann dir Auskunft rund um die offenen Ämter und das Wahlverfahren geben. Die aktuell ausgeschriebenen (Ehren-)Ämter findest du
-						<a href="https://bdkj-speyer.de/dvunterlagen">hier</a>.</p>
-					<h4>Wer hat den BDKJ-O-MAT programmiert?</h4>
+						<a href="https://bdkj-speyer.de/dvunterlagen">hier</a>.</p>\'
+		
+							<h4>Wer hat den BDKJ-O-MAT programmiert?</h4>\
+\
 					<p>Der BDKJ-O-MAT basiert auf dem Mahlowat, mehr Infos dazu findest du
-						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software! Ein Dank gilt außerdem Luca Naudszus für die Tipps rund um die Umsetzung.</p>';
+						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software! Ein Dank gilt außerdem Luca Naudszus für die Tipps rund um die Umsetzung.</p>\
+;
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
