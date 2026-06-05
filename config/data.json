@@ -74,7 +74,7 @@
 	"lists": {
 		"0": {
 			"name": "Delegierte*r Landesjugendring RLP",
-			"name_x": "LJR RLP"
+			"name_x": "Landesjugendring RLP"
 		},
 		"1": {
 			"name": "Mitglied im BDKJ Trägerwerk e. V.",
@@ -98,19 +98,19 @@
 		},
 		"6": {
 			"name": "Mitglied im Wahlausschuss",
-			"name_x": "Wahl-ausschuss"
+			"name_x": "Wahlausschuss"
 		},
 		"7": {
 			"name": "Mitglied im Satzungsausschuss",
-			"name_x": "Satzungs-ausschuss"
+			"name_x": "Satzungsausschuss"
 		},
 		"8": {
 			"name": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes",
-			"name_x": "GVL"
+			"name_x": "Geistliche*r Verbandsleiter*in"
 		},
 		"9": {
 			"name": "BDKJ-Diözesanvorsitzende*r",
-			"name_x": "BDKJ-Vorstand"
+			"name_x": "BDKJ-Vorsitzende*r"
 		}
 	},
 	"answers": {
