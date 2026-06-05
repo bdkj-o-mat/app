@@ -250,5 +250,40 @@ body.custom-wm, .custom-wm body {
  - Use JS to toggle .selected on answer tiles and to set progress width inline (e.g., style="width:45%").
 */
 
+/* Force page background to warm yellow/orange */
+html, body {
+  background: linear-gradient(180deg, #fff4d9 0%, #fff0b8 100%) !important;
+  color: #1b1b1b !important;
+}
+
+/* Make primary/blue buttons appear black (and ensure other buttons keep intended colors) */
+body #mahlowat .btn,
+body #start .btn,
+body .btn {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Preserve semantic colors for yes/neutral/no if you want them different */
+body #mahlowat #btn-yes { background-color: #28a745 !important; border-color: #28a745 !important; color: #fff !important; }
+body #mahlowat #btn-neutral { background-color: #ffc107 !important; border-color: #ffc107 !important; color: rgba(0,0,0,0.85) !important; }
+body #mahlowat #btn-no { background-color: #dc3545 !important; border-color: #dc3545 !important; color: #fff !important; }
+
+/* Specific: override .btn-primary from Bootstrap */
+body .btn.btn-primary {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Progress bar color example (optional) */
+#overall-progress-bar {
+  background: linear-gradient(90deg,#ffd400,#ffb84d) !important;
+  height: .5rem !important;
+  border-radius: 6px !important;
+}
+
+
 /* End of custom.css */
 
