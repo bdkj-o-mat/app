@@ -1,11 +1,11 @@
 
 
-/* Variables /
+/* Variables */
 :root{
 --bg: #ffffff;
 --surface: #f7f8fb;
---primary: #0b3b66;    / dunkelblau /
---accent: #ffb100;     / orange/gelb */
+--primary: #0b3b66;   
+--accent: #ffb100;     
 --muted: #6b7280;
 --card: #ffffff;
 --radius: 10px;
