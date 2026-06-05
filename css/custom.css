@@ -4,6 +4,8 @@
   --site-bg-2: #fff421;    /* optional gradient end */
   --card-bg: #ffffff;
   --card-radius: 0px;
+  --progress-bg: #e9ecef;           /* Track */
+  --progress-color-primary: #77b800; /* Füllung */
   --jumbotron-bg: #ffffff; /* default jumbotron background */
   --jumbotron-radius: 0px;               /* default jumbotron radius */
   --btn-radius: 0px;
@@ -32,6 +34,10 @@ html, body {
   padding: 2rem 1rem !important; /* keep a reasonable default */
   margin-bottom: 1.5rem !important;
   border: 1px solid rgba(0,0,0,0.04) !important; /* subtle border, optional */
+}
+
+/* Farbspezifische Varianten der Progress Bar */
+.progress-bar--primary{ background: var(--progress-color-primary) !important;
 }
 
 /* Card override: rounded corners & background color only */
