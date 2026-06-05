@@ -12,43 +12,10 @@ function () {
   function T() {
     _classCallCheck(this, T);
 
-    this.page_title = "Mahlowat";
+    this.page_title = "BDKJ-O-MAT";
     this.qa_modal_title = "Fragen &amp; Antworten";
-    this.qa_modal_body = '<h4>Wer steht hinter dem Mahlowat?</h4>\
-					<p>Lorem Ipsum.</p>\
-\
-					<h4>Wer hat die Thesen erarbeitet?</h4>\
-					<p>Lorem Ipsum.</p>\
-\
-					<h4>Woher stammen die Positionen der Gruppen?</h4>\
-					<p>Den an der Wahl teilnehmenden Gruppen wurden die Thesen mit der Bitte um Stellungnahme zugeleitet. Neben der reinen\
-						Positionierung (Zustimmung/Neutral/Ablehnung/Keine Stellungnahme) konnten sie ihre Position auch in einem kurzen Absatz\
-						erläutern.\
-					</p>\
-					<p>Für ihre Stellungnahmen zu den Thesen sind die Gruppen selbst verantwortlich.</p>\
-\
-					<h4>Von welcher Wahl reden wir hier überhaupt?</h4>\
-					<p>Lorem Ipsum.</p>\
-\
-					<h4>Wie werden die Punkte berechnet?</h4>\
-					<p>Deine Antworten werden mit den vorgegebenen Antworten der Gruppen abgeglichen.</p>\
-					<ul>\
-						<li>Stimmt die Antwort überein, werden der Gruppe 2 Punkte gutgeschrieben;</li>\
-						<li>Weicht die Antwort leicht ab (Zustimmung/Neutral oder Neutral/Ablehnung), wird der Gruppe 1 Punkt gutgeschrieben;</li>\
-						<li>Sind die Antworten entgegengesetzt oder hat eine Gruppe eine These nicht beantwortet, gibt es keine Punkte für die\
-							Gruppe.\
-						</li>\
-					</ul>\
-					<p>Eine These, die du übersprungen hast, wird nicht gewertet. Die erreichbare Höchstpunktzahl wird dadurch geringer.</p>\
-					<p>Eine These, die doppelt gewichtet werden soll, wird doppelt gewichtet, das heißt, für sie wird die doppelte Punktzahl\
-						gutgeschrieben (0/2/4). Dadurch können insgesamt mehr Punkte erreicht werden.</p>\
-\
-					<h4>Werden meine Antworten gespeichert?</h4>\
-					<p>Nein. Alles läuft vollständig in deinem Browser ab.</p>\
-\
-					<h4>Ich habe einen inhaltlichen Fehler gefunden!</h4>\
-					<p>Gib uns gern Bescheid, wir sehen uns das an. Wer „wir“ sind, steht oben auf dieser Seite.</p>\
-\
+    this.qa_modal_body = '<h4>Wie funktioniert der BDKJ-O-MAT?</h4>\
+					<p>Du kannst rausfinden, welches Wahlamt zu dir passt. Beantworte die Fragen und finde es heraus.</p>\
 					<h4>Wer hat den Mahlowat programmiert?</h4>\
 					<p>Das steht\
 						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist übrigens freie Software!</p>\
@@ -61,7 +28,7 @@ function () {
     this.btn_swype_info_ok = "OK";
     this.start_subtitle = "Finde heraus, für welches Wahlamt du dich auf der BDKJ-DV bewerben solltest!";
     this.start_explanatory_text = "<p>powered by Mahlowat.</p>";
-    this.btn_start = "Mahlowat starten!";
+    this.btn_start = "Start";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
     this.btn_important = "These doppelt gewichten";
