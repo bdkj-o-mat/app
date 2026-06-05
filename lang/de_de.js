@@ -59,11 +59,8 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Der Mahlowat ist ein Wahlpositions&shy;vergleichswerkzeug.";
-    this.start_explanatory_text = "<p>Der Mahlowat ermöglicht es dir, deine Meinung zu ausgewählten Thesen mit denen der Gruppen zu vergleichen, die zur $WAHL\
-						antreten.\
-					</p>\
-					<p>Für ihre Stellungnahmen zu den Thesen sind die Gruppen selbst verantwortlich.</p>";
+    this.start_subtitle = "Finde heraus, für welches Wahlamt du dich auf der BDKJ-DV bewerben solltest!";
+    this.start_explanatory_text = "<p>powered by Mahlowat.</p>";
     this.btn_start = "Mahlowat starten!";
     this.btn_start_show_qa = "Fragen &amp; Antworten";
     this.btn_toggle_thesis_more_text = "Erläuterung";
