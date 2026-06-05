@@ -60,7 +60,7 @@ body.custom-wm, .custom-wm body {
 
 /* Buttons - primary, secondary, accent */
 .btn {
-  border-radius: 10px !important;
+  border-radius: 0px !important;
   font-weight: 700 !important;
   padding: 10px 16px !important;
   box-shadow: 0 6px 18px rgba(11,59,102,0.12) !important;
