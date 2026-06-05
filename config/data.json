@@ -98,11 +98,11 @@
 		},
 		"6": {
 			"name": "Mitglied im Wahlausschuss",
-			"name_x": "Wahlausschuss"
+			"name_x": "Wahl-ausschuss"
 		},
 		"7": {
 			"name": "Mitglied im Satzungsausschuss",
-			"name_x": "Satzungsausschuss"
+			"name_x": "Satzungs-ausschuss"
 		},
 		"8": {
 			"name": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes",
@@ -179,7 +179,7 @@
 			},
 			"1": {
 				"selection": "c",
-				"statement": "Das Team hat hierzu keine gemacht."
+				"statement": ""
 			},
 			"2": {
 				"selection": "a",
@@ -253,7 +253,7 @@
 			},
 			"5": {
 				"selection": "c",
-				"statement": "Das Team hat hierzu keine Angaben gemacht."
+				"statement": ""
 			},
 			"6": {
 				"selection": "c",
