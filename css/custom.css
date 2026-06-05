@@ -1,19 +1,97 @@
-/* Force page background to yellow/orange */
-html, body {
-  background: linear-gradient(180deg, #e17400 0%, #ffb300 100%) !important;
-  color: #1b1b1b !important;
+:root{
+  /* adjust these values to taste */
+  --site-bg: #fff4d9;
+  --site-bg-2: #fff0b8;    /* optional gradient end */
+  --container-bg: #ffffff;
+  --container-radius: 12px;
+  --btn-radius: 10px;
+  --btn-primary-bg: #0b3b66;
+  --btn-primary-color: #ffffff;
+  --btn-accent-bg: #ffb100;
+  --btn-accent-color: #082033;
+  --btn-outline-color: rgba(11,59,102,0.12);
+  --wm-font: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Make primary/blue buttons appear black (and ensure other buttons keep intended colors) */
-body #mahlowat .btn,
-body #start .btn,
-body .btn {
-  background-color: #000 !important;
-  border-color: #000 !important;
+/* Page background — page-level override */
+html, body {
+  font-family: var(--wm-font);
+  background: linear-gradient(180deg, var(--site-bg) 0%, var(--site-bg-2) 100%);
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container override: rounded corners & background color only */
+.container, .container-fluid {
+  background: var(--container-bg) !important;
+  border-radius: var(--container-radius) !important;
+  /* keep Bootstrap's layout behavior (padding/width) intact */
+  box-shadow: none !important; /* optional */
+}
+
+/* Buttons: base + primary, accent and outline variants */
+.btn {
+  border-radius: var(--btn-radius) !important;
+  font-weight: 700;
+  padding: 10px 16px;
+  transition: transform .08s ease, box-shadow .08s ease;
+  border: 1px solid transparent !important;
+  background-image: none !important; /* remove Bootstrap gradient if present */
+}
+
+/* Primary */
+.btn-primary, .btn.btn-primary {
+  background-color: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-color) !important;
+  border-color: var(--btn-primary-bg) !important;
+}
+
+/* Accent (optional custom class) */
+.btn-accent {
+  background: var(--btn-accent-bg) !important;
+  color: var(--btn-accent-color) !important;
+  border-color: transparent !important;
+}
+
+/* Outline-style button (use .btn-outline on elements you want outlined) */
+.btn-outline, .btn.btn-outline {
+  background: transparent !important;
+  color: var(--btn-primary-bg) !important;
+  border: 1px solid var(--btn-outline-color) !important;
+  box-shadow: none !important;
+}
+
+/* Large variant */
+.btn-lg, .btn.btn-lg {
+  padding: 14px 20px;
+  border-radius: calc(var(--btn-radius) + 2px) !important;
+  font-size: 16px;
+}
+
+/* Focus accessibility */
+.btn:focus, .btn:focus-visible {
+  outline: 3px solid rgba(11,59,102,0.12) !important;
+  outline-offset: 3px !important;
+}
+
+/* Specific overrides for #mahlowat buttons (kept as requested) */
+body #mahlowat #btn-yes {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #fff !important;
+}
+body #mahlowat #btn-neutral {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: rgba(0,0,0,0.85) !important;
+}
+body #mahlowat #btn-no {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
   color: #fff !important;
 }
 
-body #mahlowat #btn-yes { background-color: #000000 !important; border-color: #000000 !important; color: #fff !important; }
-body #mahlowat #btn-neutral { background-color: #000000 !important; border-color: #000000 !important; color: rgba(0,0,0,0.85) !important; }
-body #mahlowat #btn-no { background-color: #000000 !important; border-color: #000000 !important; color: #fff !important; }
-
+/* Notes:
+- Include this file after bootstrap.css.
+- Tweak the :root variables to change background, container and button colors/radius. */
