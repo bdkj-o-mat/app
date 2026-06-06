@@ -18,12 +18,12 @@ function () {
 					<p>Der BDKJ-O-MAT ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung 2026_1 informieren kannst. Du kannst ausprobieren, welches Wahlamt am ehesten mit deinen Wünschen und Zielen übereinstimmt. Der BDKJ-O-MAT ist keine Kandidaturempfehlung, sondern ein Informationsangebot rund um die Wahlen auf der DV.</p>\
 \
 					<h4>Wo bekomme ich mehr Infos zu den Wahlämtern?</h4>\
-					<p>Den Wahlausschuss erreichst du unter <a href="wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur DV 2026_1 ausgeschriebenen (Ehren-)Ämter findest du\
+					<p>Den Wahlausschuss erreichst du unter <a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur DV 2026_1 ausgeschriebenen (Ehren-)Ämter findest du\
 						<a href="https://bdkj-speyer.de/dvunterlagen">hier</a>.</p>\
 \
 					<h4>Wer hat den BDKJ-O-MAT programmiert?</h4>\
-					<p>Der BDKJ ist ein Angebot des Wahlausschusses. <br> Der BDKJ-O-MAT basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
-						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i></p>';
+					<p>Der BDKJ-O-MAT ist ein Angebot des Wahlausschusses. <br> Der BDKJ-O-MAT basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
+						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i></p>';
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
