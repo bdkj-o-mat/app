@@ -23,7 +23,7 @@ function () {
 \
 					<h4>Wer hat den BDKJ-O-MAT programmiert?</h4>\
 					<p>Der BDKJ-O-MAT ist ein Angebot des Wahlausschusses. <br> Der BDKJ-O-MAT basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
-						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i></p>';
+						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für die Inspiration und einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i></p>';
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
