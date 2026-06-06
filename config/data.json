@@ -16,12 +16,12 @@
 			"x": ""
 		},
 		"3": {
-			"l": "Ich möchte in einem festen Team arbeiten.",
+			"l": "Ich möchte während meiner Amtszeit in einem festen Team arbeiten.",
 			"s": "Teamwork",
 			"x": ""
 		},
 		"4": {
-			"l": "Es macht mir Spaß, zu auf Versammlungen zu moderieren oder vor großen Menschengruppen zu sprechen.",
+			"l": "Es macht mir Spaß, auf Versammlungen zu moderieren oder vor großen Menschengruppen zu sprechen.",
 			"s": "Moderation",
 			"x": ""
 		},
@@ -31,8 +31,8 @@
 			"x": ""
 		},
 		"6": {
-			"l": "Ich möchte bevorzugt an der Spirtualität im BDKJ mitwirken.",
-			"s": "Spiritualität",
+			"l": "Ich möchte das spirituelle und theologische Profil des BDKJ federführend mitgestalten.",
+			"s": "Verbandliche Spiritualität",
 			"x": ""
 		},
 		"7": {
@@ -41,48 +41,48 @@
 			"x": ""
 		},
 		"8": {
-			"l": "Ich möchte vordergründig mit externen Menschen außerhalb des BDKJ in Kontakt kommen.",
-			"s": "Kontakt nach außen",
+			"l": "Ich möchte vordergründig mit Themen und Menschen außerhalb des BDKJ in Kontakt kommen.",
+			"s": "Externe Kontakte",
 			"x": ""
 		},
 		"9": {
-			"l": "Ich möchte den BDKJ als Gesamtverband leiten.",
+			"l": "Ich möchte Verantwortung für die Leitung des BDKJ übernehmen.",
 			"s": "Leitung des Verbandes",
 			"x": ""
 		},
 		"10": {
-			"l": "Ein besonderes Anliegen ist es mir, Frauen und INTA*-Menschen im BDKJ zu vertreten.",
+			"l": "Ein besonderes Anliegen ist es mir, Frauen und INTA*-Menschen in Kirche und Gesellschaft zu vertreten.",
 			"s": "FINTA*",
 			"x": ""
 		},
 		"11": {
-			"l": "Der Einsatz Klima, Umweltschutz und Nachhaltigkeit ist mir ein Herzensanliegen.",
+			"l": "Der Einsatz für Klimaschutz und den nachhaltigen Umgang mit unserem Planeten ist mir ein Herzensanliegen.",
 			"s": "Nachhaltigkeit",
 			"x": ""
 		},
 		"12": {
-			"l": "Ich möchte mich verstärkt mit der Prävention sexualisierter Gewalt beschäftigen.",
+			"l": "Mit meiner Arbeit möchte ich den BDKJ als Schutzraum stärken, in dem sexualisierte Gewalt keinen Platz hat.",
 			"s": "Prävention sexualisierter Gewalt",
 			"x": ""
 		},
 		"13": {
-			"l": "Ich bin bereit, viel Zeit in mein Ehrenamt zu investieren.",
+			"l": "Ich bin bereit, einen hohen Zeitaufwand in mein Ehrenamt zu investieren.",
 			"s": "Zeitliche Ressourcen",
 			"x": ""
 		}
 	},
 	"lists": {
 		"0": {
-			"name": "Delegierte*r Landesjugendring RLP",
-			"name_x": "Landesjugendring RLP"
+			"name": "Delegierte*r für den Landesjugendring RLP",
+			"name_x": "Delegierte*r Landesjugendring RLP"
 		},
 		"1": {
 			"name": "Mitglied im BDKJ Trägerwerk e. V.",
-			"name_x": "Trägerwerk"
+			"name_x": "Trägerwerk e. V."
 		},
 		"2": {
-			"name": "Vorstand Lawnik-Lehr-Stiftung",
-			"name_x": "Lawnik-Lehr-Stiftung"
+			"name": "Vorstand der Lawnik-Lehr-Stiftung",
+			"name_x": "Vorstand Lawnik-Lehr-Stiftung"
 		},
 		"3": {
 			"name": "Mitglied im FINTA* Ausschuss",
