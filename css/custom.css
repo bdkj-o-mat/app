@@ -126,3 +126,33 @@ div.col-12.col-md {
 img {
   margin: 1rem;        /* kleiner Abstand um das Logo herum */
 }
+
+
+/* Nachtrag, damit die beiden Buttons auf der Startseite nebeneinander angezeigt werden */
+div:has(> p.lead.text-center > #btn-start),
+div:has(> p.lead.text-center > #btn-start-show-qa) {
+  text-align: center !important;
+}
+
+p.lead.text-center:has(> #btn-start),
+p.lead.text-center:has(> #btn-start-show-qa) {
+  display: inline-block !important;
+  margin: 0 0.35rem !important;
+  vertical-align: middle !important;
+  padding: 0 !important;
+}
+
+#btn-start,
+#btn-start-show-qa {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 3.5rem !important;         /* etwas höher */
+  font-size: 1.125rem !important;    /* größere Schrift (18px bei 16px Basis) */
+  padding: 0 1.25rem !important;     /* breiterer horizontaler Innenabstand */
+  line-height: 1 !important;
+  width: auto !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+}
+
