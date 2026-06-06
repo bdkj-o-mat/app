@@ -121,3 +121,8 @@ body #mahlowat #btn-no {
 div.col-12.col-md {
   flex-basis: 100% !important;
 }
+
+/*Nachtrag, damit es einen kleinen Abstand um das Bild bzw. Logo herum gibt:*/
+img {
+  margin: 1rem;        /* kleiner Abstand um das Logo herum */
+}
