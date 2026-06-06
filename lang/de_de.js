@@ -30,7 +30,7 @@ function () {
     this.start_subtitle = "Welches Wahlamt passt zu dir?";
     this.start_explanatory_text = "<p>Die Wahlen auf der BDKJ-DV stehen bevor, aber du weißt noch gar nicht, welches Amt das Richtige für dich wäre? Beantworte ein paar Fragen und finde es heraus!</p>";
     this.btn_start = "Start";
-    this.btn_start_show_qa = "Fragen &amp; Antworten";
+    this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
     this.btn_important = "These doppelt gewichten";
     this.btn_yes_text = "Zustimmung";
@@ -38,7 +38,7 @@ function () {
     this.btn_no_text = "Ablehnung";
     this.btn_skip_text = "Überspringen";
     this.btn_mahlowat_show_start = "Zurück zur Startseite";
-    this.btn_mahlowat_show_qa = "Fragen &amp; Antworten";
+    this.btn_mahlowat_show_qa = "Infos";
     this.btn_mahlowat_skip_remaining_theses = "Alle verbleibenden Thesen überspringen und aktuellen Stand auswerten";
     this.title_results = "Ergebnis";
     this.title_results_summary = "Deine Zusammenfassung";
