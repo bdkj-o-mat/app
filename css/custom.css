@@ -156,3 +156,22 @@ p.lead.text-center:has(> #btn-start-show-qa) {
   box-sizing: border-box !important;
 }
 
+/* Nachtrag, um Farbe der Fragen-Nummerierung anzupassen */
+li.page-item > button.page-link {
+  color: #ffffff;                 /* Textfarbe */
+  background-color: #545353;      /* Button-Hintergrund (ändern) */
+  border: 1px solid #545353;      /* Rahmenfarbe anpassen */
+}
+
+/* Hover / Fokus */
+li.page-item > button.page-link:hover,
+li.page-item > button.page-link:focus {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
