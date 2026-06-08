@@ -161,6 +161,8 @@ li.page-item > button.page-link {
   color: #ffffff;                 /* Textfarbe */
   background-color: #545353;      /* Button-Hintergrund (ändern) */
   border: 1px solid #545353;      /* Rahmenfarbe anpassen */
+  border-radius: 0px !important;  /*eckiger Rand, auch beim ersten und letzten Button*/
+
 }
 
 /* Hover / Fokus */
