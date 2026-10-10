@@ -1,698 +1,283 @@
 {
-	"theses": {
-		"0": {
-			"l": "Ich möchte gerne Veranstaltungen organisieren und durchführen.",
-			"s": "Veranstaltungen",
-			"x": ""
-		},
-		"1": {
-			"l": "Ich möchte mich mit politischen Positionen einbringen und/oder sie für den BDKJ vertreten.",
-			"s": "Interessenvertretung",
-			"x": ""
-		},
-		"2": {
-			"l": "Ich möchte bevorzugt Aufgaben im Bereich Finanzen übernehmen.",
-			"s": "Finanzen",
-			"x": ""
-		},
-		"3": {
-			"l": "Ich möchte während meiner Amtszeit in einem festen Team arbeiten.",
-			"s": "Teamwork",
-			"x": ""
-		},
-		"4": {
-			"l": "Es macht mir Spaß, auf Versammlungen zu moderieren oder vor großen Menschengruppen zu sprechen.",
-			"s": "Moderation",
-			"x": ""
-		},
-		"5": {
-			"l": "Ich möchte die demokratischen Strukturen innerhalb des BDKJ gestalten.",
-			"s": "Verbandliche Demokratie",
-			"x": ""
-		},
-		"6": {
-			"l": "Ich möchte Impulse für das spirituelle und theologische Profil des BDKJ setzen.",
-			"s": "Verbandliche Spiritualität",
-			"x": ""
-		},
-		"7": {
-			"l": "Ich möchte vor allem mit anderen Jugendverbandler*innen im BDKJ in Kontakt kommen.",
-			"s": "Kontakt zu Jugendverbandler*innen",
-			"x": ""
-		},
-		"8": {
-			"l": "Ich möchte vordergründig mit Themen und Menschen außerhalb des BDKJ in Kontakt kommen.",
-			"s": "Externe Kontakte",
-			"x": ""
-		},
-		"9": {
-			"l": "Ich möchte Verantwortung für die Leitung des BDKJ übernehmen.",
-			"s": "Leitung des Verbandes",
-			"x": ""
-		},
-		"10": {
-			"l": "Ein besonderes Anliegen ist es mir, Frauen und INTA*-Menschen in Kirche und Gesellschaft zu vertreten.",
-			"s": "FINTA*",
-			"x": ""
-		},
-		"11": {
-			"l": "Der Einsatz für Klimaschutz und den nachhaltigen Umgang mit unserem Planeten ist mir ein Herzensanliegen.",
-			"s": "Nachhaltigkeit",
-			"x": ""
-		},
-		"12": {
-			"l": "Meine Arbeit soll den BDKJ insbesondere als Schutzraum stärken, in dem sexualisierte Gewalt keinen Platz hat.",
-			"s": "Prävention sexualisierter Gewalt",
-			"x": ""
-		},
-		"13": {
-			"l": "Ich bin bereit, viel Zeit in mein Ehrenamt zu investieren.",
-			"s": "Zeitliche Ressourcen",
-			"x": ""
-		}
-	},
-	"lists": {
-		"0": {
-			"name": "Delegierte*r für den Landesjugendring RLP",
-			"name_x": "Delegierte*r Landesjugendring RLP"
-		},
-		"1": {
-			"name": "Mitglied im BDKJ Trägerwerk e. V.",
-			"name_x": "Trägerwerk e. V."
-		},
-		"2": {
-			"name": "Vorstand der Lawnik-Lehr-Stiftung",
-			"name_x": "Vorstand Lawnik-Lehr-Stiftung"
-		},
-		"3": {
-			"name": "Mitglied im FINTA* Ausschuss",
-			"name_x": "FINTA* Ausschuss"
-		},
-		"4": {
-			"name": "Mitglied im Ausschuss Prävention sexualisierter Gewalt",
-			"name_x": "Ausschuss Prävention"
-		},
-		"5": {
-			"name": "Mitglied im Ausschuss Nachhaltigkeit",
-			"name_x": "Ausschuss Nachhaltigkeit"
-		},
-		"6": {
-			"name": "Mitglied im Wahlausschuss",
-			"name_x": "Wahlausschuss"
-		},
-		"7": {
-			"name": "Mitglied im Satzungsausschuss",
-			"name_x": "Satzungsausschuss"
-		},
-		"8": {
-			"name": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes",
-			"name_x": "Geistliche*r Verbandsleiter*in"
-		},
-		"9": {
-			"name": "BDKJ-Diözesanvorsitzende*r",
-			"name_x": "BDKJ-Vorsitzende*r"
-		}
-	},
-	"answers": {
-		"0": {
-			"0": {
-				"selection": "c",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "b",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "c",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"1": {
-			"0": {
-				"selection": "c",
-				"statement": ""
-			},
-			"1": {
-				"selection": "c",
-				"statement": ""
-			},
-			"2": {
-				"selection": "a",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "b",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "b",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"2": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "b",
-				"statement": ""
-			},
-			"2": {
-				"selection": "a",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "b",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "c",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"3": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "b",
-				"statement": ""
-			},
-			"5": {
-				"selection": "a",
-				"statement": ""
-			},
-			"6": {
-				"selection": "b",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "a",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"4": {
-			"0": {
-				"selection": "b",
-				"statement": ""
-			},
-			"1": {
-				"selection": "b",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "c",
-				"statement": ""
-			},
-			"5": {
-				"selection": "b",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "a",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"5": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "b",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "b",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "a",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"6": {
-			"0": {
-				"selection": "c",
-				"statement": ""
-			},
-			"1": {
-				"selection": "c",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "a",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"7": {
-			"0": {
-				"selection": "c",
-				"statement": ""
-			},
-			"1": {
-				"selection": "c",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "c",
-				"statement": ""
-			},
-			"5": {
-				"selection": "a",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "c",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "b",
-				"statement": ""
-			}
-		},
-		"8": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "a",
-				"statement": ""
-			},
-			"6": {
-				"selection": "a",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "a",
-				"statement": ""
-			}
-		},
-		"9": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "a",
-				"statement": ""
-			},
-			"6": {
-				"selection": "b",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			},
-			"10": {
-				"selection": "b",
-				"statement": ""
-			},
-			"11": {
-				"selection": "b",
-				"statement": ""
-			},
-			"12": {
-				"selection": "b",
-				"statement": ""
-			},
-			"13": {
-				"selection": "a",
-				"statement": ""
-			}
-		}
-	}
+  "theses": {
+    "0": { "l": "Ich hätte Spaß daran, Veranstaltungen von der Idee bis zur Durchführung zu begleiten.", "s": "", "x": "" },
+    "1": { "l": "Ich fände es interessant, den BDKJ gegenüber externen Partner\*innen oder der Öffentlichkeit zu repräsentieren.", "s": "", "x": "" },
+    "2": { "l": "Ich möchte lernen, Entscheidungen anhand von Zahlen und verfügbaren finanziellen Ressourcen zu bewerten.", "s": "", "x": "" },
+    "3": { "l": "Ich weiß noch nicht, wo ich in 2‑3 Jahren stehe und suche eher ein kurzfristiges, flexibles Ehrenamt.", "s": "", "x": "" },
+    "4": { "l": "Ich möchte Sicherheit darin gewinnen, vor großen Menschengruppen zu sprechen oder eine Versammlung zu moderieren.", "s": "", "x": "" },
+    "5": { "l": "Ich möchte mehr über politische Fachthemen erfahren und fundierte Positionen entwickeln.", "s": "", "x": "" },
+    "6": { "l": "Ich möchte die demokratischen Strukturen innerhalb des BDKJ verstehen und gestalten.", "s": "", "x": "" },
+    "7": { "l": "Ich möchte mich mit den Interessen des BDKJ im Bistum Speyer beschäftigen, um mich dort für Wandel in der Katholischen Kirche einzusetzen.", "s": "", "x": "" },
+    "8": { "l": "Ich möchte Impulse für das spirituelle und theologische Profil des BDKJ setzen.", "s": "", "x": "" },
+    "9": { "l": "Ich möchte während meiner Amtszeit in einem festen Team arbeiten.", "s": "", "x": "" },
+    "10": { "l": "Ich möchte innerhalb des BDKJ mit den Menschen aus den verschiedenen Jugendverbänden in Kontakt kommen.", "s": "", "x": "" },
+    "11": { "l": "Schwerpunkt meiner Arbeit soll sein, Frauen und INTA\*-Menschen in Kirche und Gesellschaft zu vertreten.", "s": "", "x": "" },
+    "12": { "l": "Meine Arbeit soll den BDKJ vordergründig als Schutzraum stärken, in dem sexualisierte Gewalt keinen Platz hat.", "s": "", "x": "" },
+    "13": { "l": "Der Einsatz für Klimaschutz und den nachhaltigen Umgang mit unserem Planeten soll Hauptinhalt meines Ehrenamts sein.", "s": "", "x": "" },
+    "14": { "l": "Ich möchte den BDKJ als Gestamtes gestalten und verschiedene Prozesse aufeinander abstimmen.", "s": "", "x": "" },
+    "15": { "l": "Ich bin bereit, viel Zeit in mein Ehrenamt zu investieren.", "s": "", "x": "" },
+    "16": { "l": "Ich kann mir vorstellen, die Verantwortung für Entscheidungen zu tragen, auch wenn sie nicht jede\*m gefallen.", "s": "", "x": "" },
+    "17": { "l": "Ich möchte lernen, wie man Regelungen analysiert und sie verständlich und widerspruchsfrei aufbereitet.", "s": "", "x": "" },
+    "18": { "l": "Ich sorge gerne dafür, dass alle Beteiligten in einem Wahlverfahren die gleichen Rahmenbedingungen haben.", "s": "", "x": "" },
+    "19": { "l": "Ich möchte lernen, wie man überzeugend argumentiert.", "s": "", "x": "" }
+  },
+
+  "lists": {
+    "0": { "name": "Delegierte*r Landesjugendring", "name_x": "Delegierte*r Landesjugendring" },
+    "1": { "name": "Mitglied im BDKJ Trägerwerk e. V.", "name_x": "Mitglied im BDKJ Trägerwerk e. V." },
+    "2": { "name": "Vorstand der Lawnik-Lehr-Stiftung", "name_x": "Vorstand der Lawnik-Lehr-Stiftung" },
+    "3": { "name": "Mitglied im FINTA* Ausschuss", "name_x": "Mitglied im FINTA* Ausschuss" },
+    "4": { "name": "Mitglied im Ausschuss Prävention sexualisierter Gewalt", "name_x": "Mitglied im Ausschuss Prävention sexualisierter Gewalt" },
+    "5": { "name": "Mitglied im Ausschuss Nachhaltigkeit", "name_x": "Mitglied im Ausschuss Nachhaltigkeit" },
+    "6": { "name": "Mitglied im Wahlausschuss", "name_x": "Mitglied im Wahlausschuss" },
+    "7": { "name": "Mitglied im Satzungsausschuss", "name_x": "Mitglied im Satzungsausschuss" },
+    "8": { "name": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes", "name_x": "Geistliche Verbandsleitung des BDKJ-Diözesanverbandes" },
+    "9": { "name": "BDKJ-Diözesanvorsitzende*r", "name_x": "BDKJ-Diözesanvorsitzende*r" },
+    "10": { "name": "Vertreter*in im Katholikenrat", "name_x": "Vertreter*in im Katholikenrat" }
+  },
+
+  "answers": {
+    "0": {
+      "0": { "selection": "c", "statement": "" },
+      "1": { "selection": "a", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "a", "statement": "" },
+      "4": { "selection": "a", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "c", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "b", "statement": "" },
+      "10": { "selection": "c", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "c", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "a", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "1": {
+      "0": { "selection": "c", "statement": "" },
+      "1": { "selection": "c", "statement": "" },
+      "2": { "selection": "a", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "c", "statement": "" },
+      "5": { "selection": "c", "statement": "" },
+      "6": { "selection": "c", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "b", "statement": "" },
+      "10": { "selection": "b", "statement": "" },
+      "11": { "selection": "c", "statement": "" },
+      "12": { "selection": "c", "statement": "" },
+      "13": { "selection": "c", "statement": "" },
+      "14": { "selection": "b", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "a", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "2": {
+      "0": { "selection": "b", "statement": "" },
+      "1": { "selection": "b", "statement": "" },
+      "2": { "selection": "a", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "b", "statement": "" },
+      "5": { "selection": "c", "statement": "" },
+      "6": { "selection": "b", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "b", "statement": "" },
+      "10": { "selection": "c", "statement": "" },
+      "11": { "selection": "c", "statement": "" },
+      "12": { "selection": "c", "statement": "" },
+      "13": { "selection": "c", "statement": "" },
+      "14": { "selection": "b", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "b", "statement": "" }
+    },
+    "3": {
+      "0": { "selection": "a", "statement": "" },
+      "1": { "selection": "b", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "b", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "b", "statement": "" },
+      "7": { "selection": "b", "statement": "" },
+      "8": { "selection": "b", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "a", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "c", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "4": {
+      "0": { "selection": "b", "statement": "" },
+      "1": { "selection": "c", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "b", "statement": "" },
+      "5": { "selection": "b", "statement": "" },
+      "6": { "selection": "b", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "a", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "c", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "5": {
+      "0": { "selection": "a", "statement": "" },
+      "1": { "selection": "b", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "b", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "b", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "b", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "a", "statement": "" },
+      "14": { "selection": "c", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "6": {
+      "0": { "selection": "c", "statement": "" },
+      "1": { "selection": "c", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "a", "statement": "" },
+      "5": { "selection": "c", "statement": "" },
+      "6": { "selection": "a", "statement": "" },
+      "7": { "selection": "a", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "c", "statement": "" },
+      "14": { "selection": "b", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "a", "statement": "" },
+      "18": { "selection": "a", "statement": "" },
+      "19": { "selection": "b", "statement": "" }
+    },
+    "7": {
+      "0": { "selection": "c", "statement": "" },
+      "1": { "selection": "c", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "b", "statement": "" },
+      "4": { "selection": "b", "statement": "" },
+      "5": { "selection": "b", "statement": "" },
+      "6": { "selection": "c", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "c", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "c", "statement": "" },
+      "14": { "selection": "b", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "b", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "b", "statement": "" }
+    },
+	    "8": {
+      "0": { "selection": "a", "statement": "" },
+      "1": { "selection": "a", "statement": "" },
+      "2": { "selection": "b", "statement": "" },
+      "3": { "selection": "c", "statement": "" },
+      "4": { "selection": "a", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "a", "statement": "" },
+      "7": { "selection": "c", "statement": "" },
+      "8": { "selection": "a", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "a", "statement": "" },
+      "15": { "selection": "a", "statement": "" },
+      "16": { "selection": "a", "statement": "" },
+      "17": { "selection": "b", "statement": "" },
+      "18": { "selection": "b", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "9": {
+      "0": { "selection": "a", "statement": "" },
+      "1": { "selection": "a", "statement": "" },
+      "2": { "selection": "b", "statement": "" },
+      "3": { "selection": "c", "statement": "" },
+      "4": { "selection": "a", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "a", "statement": "" },
+      "7": { "selection": "a", "statement": "" },
+      "8": { "selection": "b", "statement": "" },
+      "9": { "selection": "a", "statement": "" },
+      "10": { "selection": "a", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "a", "statement": "" },
+      "15": { "selection": "a", "statement": "" },
+      "16": { "selection": "a", "statement": "" },
+      "17": { "selection": "b", "statement": "" },
+      "18": { "selection": "b", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    },
+    "10": {
+      "0": { "selection": "c", "statement": "" },
+      "1": { "selection": "b", "statement": "" },
+      "2": { "selection": "c", "statement": "" },
+      "3": { "selection": "c", "statement": "" },
+      "4": { "selection": "a", "statement": "" },
+      "5": { "selection": "a", "statement": "" },
+      "6": { "selection": "c", "statement": "" },
+      "7": { "selection": "a", "statement": "" },
+      "8": { "selection": "b", "statement": "" },
+      "9": { "selection": "b", "statement": "" },
+      "10": { "selection": "c", "statement": "" },
+      "11": { "selection": "b", "statement": "" },
+      "12": { "selection": "b", "statement": "" },
+      "13": { "selection": "b", "statement": "" },
+      "14": { "selection": "c", "statement": "" },
+      "15": { "selection": "b", "statement": "" },
+      "16": { "selection": "a", "statement": "" },
+      "17": { "selection": "c", "statement": "" },
+      "18": { "selection": "c", "statement": "" },
+      "19": { "selection": "a", "statement": "" }
+    }
+  }
 }
