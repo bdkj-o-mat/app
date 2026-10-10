@@ -15,11 +15,10 @@ function () {
     this.page_title = "bdkj wal-o-mat";
     this.qa_modal_title = "Infos";
 	this.qa_modal_body = '<h4>Wie funktioniert der bdkj wal-o-mat?</h4>\
-					<p>Der bdkj wal-o-mat ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung 2026_1 informieren kannst. Du kannst ausprobieren, welches Wahlamt am ehesten mit deinen Wünschen und Zielen übereinstimmt. Der bdkj wal-o-mat ist keine Kandidaturempfehlung, sondern ein Informationsangebot rund um die Wahlen auf der DV.</p>\
+					<p>Der bdkj wal-o-mat ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung informieren kannst. Du kannst ausprobieren, welches Wahlamt am ehesten mit deinen Wünschen und Zielen übereinstimmt. Der bdkj wal-o-mat ist keine Kandidaturempfehlung, sondern ein Informationsangebot rund um die Wahlen auf der DV.</p>\
 \
 					<h4>Wo bekomme ich mehr Infos zu den Wahlämtern?</h4>\
-					<p>Den Wahlausschuss erreichst du unter <a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur DV 2026_1 ausgeschriebenen (Ehren-)Ämter findest du\
-						<a href="https://bdkj-speyer.de/dvunterlagen">hier</a>.</p>\
+					<p>Den Wahlausschuss erreichst du unter <a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur jeweiligen DV ausgeschriebenen (Ehren-)Ämter findest du in der aktuellsten Ausschreibung des Wahlausschusses in den DV-Unterlagen.</p>\
 \
 					<h4>Wer hat den bdkj wal-o-mat programmiert?</h4>\
 					<p>Der bdkj wal-o-mat ist ein Angebot des Wahlausschusses. <br> Der bdkj wal-o-mat basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
