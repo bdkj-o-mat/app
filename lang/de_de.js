@@ -13,7 +13,7 @@ function () {
     _classCallCheck(this, T);
 
     this.page_title = "bdkj wal-o-mat";
-    this.qa_modal_title = "Infos";
+    this.qa_modal_title = "Logbuch";
 	this.qa_modal_body = '<h4>Wie funktioniert der bdkj wal-o-mat?</h4>\
 					<p>Der bdkj wal-o-mat ist eine Web-App, mit der du dich zu den Wahlämtern auf der BDKJ-Diözesanversammlung informieren kannst. Du kannst ausprobieren, welches Wahlamt am ehesten mit deinen Wünschen und Zielen übereinstimmt. Der bdkj wal-o-mat ist keine Kandidaturempfehlung, sondern ein Informationsangebot rund um die Wahlen auf der DV.</p>\
 \
