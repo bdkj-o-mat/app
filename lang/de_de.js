@@ -27,7 +27,7 @@ function () {
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu surfen";
     this.btn_swype_info_ok = "Klar Schiff!";
     this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
-    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt..</p>";
+    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt.</p>";
     this.btn_start = "Abtauchen!";
     this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
