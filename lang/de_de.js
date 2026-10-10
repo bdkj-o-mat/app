@@ -26,26 +26,26 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Welches Wahlamt passt zu dir?";
-    this.start_explanatory_text = "<p>Die Wahlen auf der BDKJ-DV stehen bevor, aber du weißt noch gar nicht, welches Amt das Richtige für dich wäre? Beantworte ein paar Fragen und finde es heraus!</p>";
-    this.btn_start = "Start";
+    this.start_subtitle = "Tauch' ein in die Wa(h)lämter!";
+    this.start_explanatory_text = "<p>Lass uns gemeinsam schauen, welches Amt die perfekte Wa(h)l für dich wäre – wir lassen dich nicht im Regen stehen! (oder im Ozean treiben)“</p>";
+    this.btn_start = "Los geht's!";
     this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
     this.btn_important = "These doppelt gewichten";
-    this.btn_yes_text = "Zustimmung";
-    this.btn_neutral_text = "Neutral";
-    this.btn_no_text = "Ablehnung";
+    this.btn_yes_text = "yeah!";
+    this.btn_neutral_text = "hmmmmm";
+    this.btn_no_text = "och nö!";
     this.btn_skip_text = "Überspringen";
-    this.btn_mahlowat_show_start = "Zurück zur Startseite";
+    this.btn_mahlowat_show_start = "Zurück auf Start";
     this.btn_mahlowat_show_qa = "Infos";
-    this.btn_mahlowat_skip_remaining_theses = "Alle verbleibenden Thesen überspringen und aktuellen Stand auswerten";
-    this.title_results = "Ergebnis";
-    this.title_results_summary = "Deine Zusammenfassung";
-    this.text_result_below_summary = '<small>Nicht zufrieden mit dem Ergebnis?\
+    this.btn_mahlowat_skip_remaining_theses = "Jetzt auswerten";
+    this.title_results = "Stell' dich zur Wal";
+    this.title_results_summary = "Stell' dich zur Wal";
+    this.text_result_below_summary = '<small>Unhappy mit dem Ergebnis?\
 				<button class="btn btn-sm btn-light" onclick="showMahlowatFirstThesis()">Ändere die Antworten oder die Gewichtung!</button>\
 			</small>';
     this.title_results_details = "";
-    this.btn_results_show_start = "Zurück zur Startseite";
+    this.btn_results_show_start = "Zurück auf Start";
     this.btn_results_show_qa = "Infos";
   }
 
