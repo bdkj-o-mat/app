@@ -26,8 +26,8 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Dein Match-Maker für die BDKJ-DV";
-    this.start_explanatory_text = "<p>Du weißt noch nicht, wofür du kandidieren willst? Lass uns gemeinsam schauen, welches Amt die perfekte Wa(h)l für dich wäre!</p>";
+    this.start_subtitle = "Tauch' ein in die Wa(h)lämter!";
+    this.start_explanatory_text = "<p>Du weißt noch nicht, wofür du auf der BDKJ-DV kandidieren willst? Lass uns gemeinsam schauen, welches Amt die perfekte Wa(h)l für dich wäre!</p>";
     this.btn_start = "Los geht's!";
     this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
