@@ -24,29 +24,29 @@ function () {
 					<p>Der bdkj wal-o-mat ist ein Angebot des Wahlausschusses. <br> Der bdkj wal-o-mat basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
 						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für die Inspiration und einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i><br><br><a href="https://bdkj-speyer.de/impressum/">Impressum</a></p>';
     this.btn_qa_modal_close = "Schließen";
-    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
-    this.btn_swype_info_ok = "OK";
+    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu surfen";
+    this.btn_swype_info_ok = "Klar Schiff!";
     this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
-    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, weißt aber nicht, wo du starten kannst? Oder du bist schon ewig dabei und weißt genau, dass Ehrenämter zwar eine geile Erfahrung sind, aber auch gerne mal deinen Terminkalender zum Explodieren bringen? <br> Wir finden heraus, welches Amt zu deinen Zielen und deinem Zeitbudget passt. Beantworte ein paar Fragen und wir angeln dir ein Match!</p>";
-    this.btn_start = "Los geht's!";
+    this.start_explanatory_text = "<p>Zwischen „keine Ahnung, wo ich anfangen soll“ und „mein Terminkalender explodiert“: Wir angeln dir das Amt aus dem Ozean, das perfekt zu deinem Zeitbudget und deinen Zielen passt.</p>";
+    this.btn_start = "Abtauchen!";
     this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
-    this.btn_important = "These doppelt gewichten";
+    this.btn_important = "das ist die perfekte Welle";
     this.btn_yes_text = "yeah!";
     this.btn_neutral_text = "hmm...";
     this.btn_no_text = "och nö!";
     this.btn_skip_text = "These skippen";
     this.btn_mahlowat_show_start = "ausfischen";
-    this.btn_mahlowat_show_qa = "Infos";
-    this.btn_mahlowat_skip_remaining_theses = "Jetzt auswerten";
+    this.btn_mahlowat_show_qa = "Logbuch";
+    this.btn_mahlowat_skip_remaining_theses = "direkt auftauchen";
     this.title_results = "Dein Ergebnis ist aufgetaucht";
     this.title_results_summary = "Stell' dich zur Wal!";
     this.text_result_below_summary = '<small>Zu viel Stress im Ozean? Dann kannst du die Antworten ändern und ein besseres Amt suchen!\
-				<button class="btn btn-sm btn-light" onclick="showMahlowatFirstThesis()">Ändere die Antworten oder die Gewichtung!</button>\
+				<button class="btn btn-sm btn-light" onclick="showMahlowatFirstThesis()">Kurs korrigieren</button>\
 			</small>';
     this.title_results_details = "";
-    this.btn_results_show_start = "Zurück auf Start";
-    this.btn_results_show_qa = "Infos";
+    this.btn_results_show_start = "Zurück zum Hafen";
+    this.btn_results_show_qa = "Logbuch";
   }
 
   _createClass(T, [{
