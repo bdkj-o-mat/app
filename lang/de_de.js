@@ -35,8 +35,8 @@ function () {
     this.btn_yes_text = "yeah!";
     this.btn_neutral_text = "hmm...";
     this.btn_no_text = "och nö!";
-    this.btn_skip_text = "Überspringen";
-    this.btn_mahlowat_show_start = "Zurück auf Start";
+    this.btn_skip_text = "These skippen";
+    this.btn_mahlowat_show_start = "ausfischen";
     this.btn_mahlowat_show_qa = "Infos";
     this.btn_mahlowat_skip_remaining_theses = "Jetzt auswerten";
     this.title_results = "Dein Ergebnis ist aufgetaucht";
