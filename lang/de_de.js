@@ -29,7 +29,7 @@ function () {
     this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
     this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt.</p>";
     this.btn_start = "Abtauchen!";
-    this.btn_start_show_qa = "Infos";
+    this.btn_start_show_qa = "Logbuch";
     this.btn_toggle_thesis_more_text = "Erläuterung";
     this.btn_important = "Das ist die perfekte Welle!";
     this.btn_yes_text = "yeah!";
@@ -39,9 +39,9 @@ function () {
     this.btn_mahlowat_show_start = "ausfischen";
     this.btn_mahlowat_show_qa = "Logbuch";
     this.btn_mahlowat_skip_remaining_theses = "direkt auftauchen";
-    this.title_results = "Dein Ergebnis ist aufgetaucht";
+    this.title_results = "Dein Ergebnis ist aufgetaucht...";
     this.title_results_summary = "Stell' dich zur Wal!";
-    this.text_result_below_summary = '<small>Zu viel Stress im Ozean? Dann kannst du die Antworten ändern und ein besseres Amt suchen!\
+    this.text_result_below_summary = '<small>Die Strömung hat dich in die falsche Richtung getrieben? Justiere deinen Kompass und fische ein passenderes Ehrenamt!\
 				<button class="btn btn-sm btn-light" onclick="showMahlowatFirstThesis()">Kurs korrigieren</button>\
 			</small>';
     this.title_results_details = "";
