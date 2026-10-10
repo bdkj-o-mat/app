@@ -26,8 +26,8 @@ function () {
     this.btn_qa_modal_close = "Schließen";
     this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
     this.btn_swype_info_ok = "OK";
-    this.start_subtitle = "Tauch' ein in die Wa(h)lämter!";
-    this.start_explanatory_text = "<p>Du weißt noch nicht, wofür du auf der BDKJ-DV kandidieren willst? Lass uns gemeinsam schauen, welches Amt die perfekte Wa(h)l für dich wäre!</p>";
+    this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
+    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, weißt aber nicht, wo du starten kannst? Oder du bist schon ewig dabei und weißt genau, dass Ehrenämter zwar eine geile Erfahrung sind, aber auch gerne mal deinen Terminkalender zum Explodieren bringen? <br> Wir finden heraus, welches Amt zu deinen Zielen und deinem Zeitbudget passt. Beantworte ein paar Fragen und wir angeln dir ein Match!</p>";
     this.btn_start = "Los geht's!";
     this.btn_start_show_qa = "Infos";
     this.btn_toggle_thesis_more_text = "Erläuterung";
@@ -39,9 +39,9 @@ function () {
     this.btn_mahlowat_show_start = "Zurück auf Start";
     this.btn_mahlowat_show_qa = "Infos";
     this.btn_mahlowat_skip_remaining_theses = "Jetzt auswerten";
-    this.title_results = "Dein Ergebnis";
+    this.title_results = "Dein Ergebnis ist aufgetaucht";
     this.title_results_summary = "Stell' dich zur Wal!";
-    this.text_result_below_summary = '<small>Unhappy mit dem Ergebnis?\
+    this.text_result_below_summary = '<small>Zu viel Stress im Ozean? Dann kannst du die Antworten ändern und ein besseres Amt suchen!\
 				<button class="btn btn-sm btn-light" onclick="showMahlowatFirstThesis()">Ändere die Antworten oder die Gewichtung!</button>\
 			</small>';
     this.title_results_details = "";
