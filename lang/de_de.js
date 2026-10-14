@@ -20,14 +20,17 @@ function () {
 					<h4>Wo bekomme ich mehr Infos zu den Wahlämtern?</h4>\
 					<p>Den Wahlausschuss erreichst du unter <a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur jeweiligen DV ausgeschriebenen (Ehren-)Ämter findest du in der aktuellsten Ausschreibung des Wahlausschusses in den DV-Unterlagen.</p>\
 \
+					<h4>Hilfe, was bedeuten diese ganzen Begriffe?</h4>\
+					<p>Hier eine kleine Übersetzung:<br><i>Wal = Wahl<br>Abtauchen = Tool starten <br>Logbuch = Infos rund um das Tool<br>Klar Schiff! = Okay!<br>Perfekte Welle aktivieren = These doppelt gewichten<br>ausfischen = zurück auf die Startseite<br>zurück zum Hafen = zurück zur Startseite<br>direkt auftauchen = verbleibende Thesen überspringen und Ergebnis auswerten<br>Kurs korrigieren = Neu starten</i></p>\
+\
 					<h4>Wer hat den bdkj wal-o-mat programmiert?</h4>\
 					<p>Der bdkj wal-o-mat ist ein Angebot des Wahlausschusses. <br> Der bdkj wal-o-mat basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
 						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für die Inspiration und einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i><br><br><a href="https://bdkj-speyer.de/impressum/">Impressum</a></p>';
     this.btn_qa_modal_close = "Schließen";
-    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu surfen";
+    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu surfen. Gehe ins Logbuch, falls dir etwas unklar ist.";
     this.btn_swype_info_ok = "Klar Schiff!";
     this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
-    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt.</p>";
+    this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber bist planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt.</p>";
     this.btn_start = "Abtauchen!";
     this.btn_start_show_qa = "Logbuch";
     this.btn_toggle_thesis_more_text = "Erläuterung";
@@ -77,7 +80,7 @@ function () {
   }, {
     key: "default_text_no_statement",
     get: function get() {
-      return "<small class='text-muted'>Keine Stellungnahme.</small>";
+      return "<small class='text-muted'> </small>";
     }
   }, {
     key: "error_loading_config_file",
