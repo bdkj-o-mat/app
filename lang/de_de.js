@@ -21,13 +21,13 @@ function () {
 					<p>Den Wahlausschuss erreichst du unter <a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a>. <br> <br> Der Wahlausschuss kann dir - während der DV auch in Präsenz - Auskunft rund um die offenen Ämter, die jeweiligen Wahlvoraussetzungen und das Wahlverfahren geben. Außerdem kannst du diejenigen Menschen, die bereits in einem Amt sind, nach ihren Erfahrungen fragen. Die zur jeweiligen DV ausgeschriebenen (Ehren-)Ämter findest du in der aktuellsten Ausschreibung des Wahlausschusses in den DV-Unterlagen.</p>\
 \
 					<h4>Hilfe, was bedeuten diese ganzen Begriffe?</h4>\
-					<p>Hier eine kleine Übersetzung:<br><i>Wal = Wahl<br>Abtauchen = Tool starten <br>Logbuch = Infos rund um das Tool<br>Klar Schiff! = Okay!<br>Perfekte Welle aktivieren = These doppelt gewichten<br>ausfischen = zurück auf die Startseite<br>zurück zum Hafen = zurück zur Startseite<br>direkt auftauchen = verbleibende Thesen überspringen und Ergebnis auswerten<br>Kurs korrigieren = Neu starten</i></p>\
+					<p>Hier eine kleine Übersetzung:<br><i><b>Wal</b> = Wahl<br><br><b>Abtauchen</b> = Tool starten <br><br><b>Logbuch</b> = Infos rund um das Tool<br><br><b>Klar Schiff!</b> = Okay!<br><br><b>Perfekte Welle aktivieren</b> = These doppelt gewichten<br><br><b>ausfischen</b> = zurück auf die Startseite<br><br><b>zurück zum Hafen</b> = zurück zur Startseite<br><br><b>direkt auftauchen</b> = verbleibende Thesen überspringen und Ergebnis auswerten<br><br><b>Kurs korrigieren</b> = Neu starten</i></p>\
 \
 					<h4>Wer hat den bdkj wal-o-mat programmiert?</h4>\
 					<p>Der bdkj wal-o-mat ist ein Angebot des Wahlausschusses. <br> Der bdkj wal-o-mat basiert technisch auf dem Mahlowat, mehr Infos dazu findest du\
 						<a href="https://github.com/hszemi/mahlowat">hier</a>. Der Mahlowat ist freie Software. <br> <br> Ein Dank gilt außerdem Luca Naudszus für die Inspiration und einige gute Tipps rund um die Umsetzung. <br><br> <i><b>Kontakt:</b><br>Wahlausschuss des BDKJ Speyer<br>Webergasse 11<br>67346 Speyer<br><a href="mailto:wahlausschuss@bdkj-speyer.de">wahlausschuss@bdkj-speyer.de</a></i><br><br><a href="https://bdkj-speyer.de/impressum/">Impressum</a></p>';
     this.btn_qa_modal_close = "Schließen";
-    this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu surfen. Gehe ins Logbuch, falls dir etwas unklar ist.";
+    this.swype_info_message_text = "Wische, um manuell zwischen den Thesen zu wechseln. Gehe ins Logbuch, falls dir etwas unklar ist.";
     this.btn_swype_info_ok = "Klar Schiff!";
     this.start_subtitle = "Tauch' ein in unsere Wa(h)lämter!";
     this.start_explanatory_text = "<p>Du hast Lust, was zu bewegen, aber bist planlos beim Start? Oder bist du schon Profi im Ehrenamt und dein Terminkalender steht kurz vor der Flut? Wir angeln dir das Ehrenamt aus dem Ozean, das perfekt zu deinen Zielen und deinem Zeitbudget passt.</p>";
